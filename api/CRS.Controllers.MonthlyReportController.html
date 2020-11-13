@@ -1,0 +1,2340 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class MonthlyReportController
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class MonthlyReportController
+   ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CRS.Controllers.MonthlyReportController">
+  
+  
+  <h1 id="CRS_Controllers_MonthlyReportController" data-uid="CRS.Controllers.MonthlyReportController" class="text-break">Class MonthlyReportController
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">System.Web.Mvc.ControllerBase</span></div>
+    <div class="level2"><span class="xref">System.Web.Mvc.Controller</span></div>
+    <div class="level3"><a class="xref" href="MvcInternationalization.Controllers.BaseController.html">BaseController</a></div>
+    <div class="level4"><span class="xref">MonthlyReportController</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.Web.Mvc.IActionFilter</span></div>
+    <div><span class="xref">System.Web.Mvc.IAuthorizationFilter</span></div>
+    <div><span class="xref">System.IDisposable</span></div>
+    <div><span class="xref">System.Web.Mvc.IExceptionFilter</span></div>
+    <div><span class="xref">System.Web.Mvc.IResultFilter</span></div>
+    <div><span class="xref">System.Web.Mvc.Async.IAsyncController</span></div>
+    <div><span class="xref">System.Web.Mvc.IController</span></div>
+    <div><span class="xref">System.Web.Mvc.Async.IAsyncManagerContainer</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_monthper1">BaseController.monthper1</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_monthper2">BaseController.monthper2</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_colsim">BaseController.colsim</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_compansok">BaseController.compansok</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_br">BaseController.br</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_bran">BaseController.bran</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_de">BaseController.de</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_up">BaseController.up</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_raykoef">BaseController.raykoef</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_ksbc">BaseController.ksbc</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_kharm">BaseController.kharm</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_BeginExecuteCore_System_AsyncCallback_System_Object_">BaseController.BeginExecuteCore(AsyncCallback, Object)</a>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Content(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Content(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Content(System.String, System.String, System.Text.Encoding)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.CreateActionInvoker()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.CreateTempDataProvider()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Dispose(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.ExecuteCore()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.File(System.Byte[], System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.File(System.Byte[], System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.File(System.IO.Stream, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.File(System.IO.Stream, System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.File(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.File(System.String, System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.HandleUnknownAction(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.HttpNotFound()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.HttpNotFound(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.JavaScript(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Json(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Json(System.Object, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Json(System.Object, System.String, System.Text.Encoding)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Json(System.Object, System.Web.Mvc.JsonRequestBehavior)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Json(System.Object, System.String, System.Web.Mvc.JsonRequestBehavior)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Json(System.Object, System.String, System.Text.Encoding, System.Web.Mvc.JsonRequestBehavior)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Initialize(System.Web.Routing.RequestContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.OnAuthorization(System.Web.Mvc.AuthorizationContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.OnException(System.Web.Mvc.ExceptionContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.PartialView()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.PartialView(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.PartialView(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.PartialView(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Redirect(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectPermanent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToAction(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToAction(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToAction(System.String, System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToAction(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToAction(System.String, System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToAction(System.String, System.String, System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToActionPermanent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToActionPermanent(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToActionPermanent(System.String, System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToActionPermanent(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToActionPermanent(System.String, System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToActionPermanent(System.String, System.String, System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoute(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoute(System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoute(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoute(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoute(System.String, System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoutePermanent(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoutePermanent(System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoutePermanent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoutePermanent(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoutePermanent(System.String, System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String, System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String, System.String[], System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String, System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String[], System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String, System.String[], System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String, System.String[], System.String[], System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryValidateModel(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryValidateModel(System.Object, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String, System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String, System.String[], System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String, System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String[], System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String, System.String[], System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String, System.String[], System.String[], System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.ValidateModel(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.ValidateModel(System.Object, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.String, System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.Web.Mvc.IView)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.Web.Mvc.IView, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.BeginExecute(System.Web.Routing.RequestContext, System.AsyncCallback, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(System.IAsyncResult)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.BeginExecute(System.Web.Routing.RequestContext, System.AsyncCallback, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.EndExecute(System.IAsyncResult)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.EndExecuteCore(System.IAsyncResult)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.IActionFilter.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.IActionFilter.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.IAuthorizationFilter.OnAuthorization(System.Web.Mvc.AuthorizationContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.IExceptionFilter.OnException(System.Web.Mvc.ExceptionContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.IResultFilter.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.IResultFilter.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.AsyncManager</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.DisableAsyncSupport</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.ActionInvoker</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Binders</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.HttpContext</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.ModelState</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Profile</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Request</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Response</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RouteData</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Server</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Session</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TempDataProvider</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Url</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.User</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.ViewEngineCollection</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.Execute(System.Web.Routing.RequestContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(System.Web.Routing.RequestContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.ControllerContext</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.TempData</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.ValidateRequest</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.ValueProvider</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.ViewBag</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.ViewData</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CRS.Controllers.html">CRS.Controllers</a></h6>
+  <h6><strong>Assembly</strong>: Union.dll</h6>
+  <h5 id="CRS_Controllers_MonthlyReportController_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class MonthlyReportController : BaseController, IActionFilter, IAuthorizationFilter, IDisposable, IExceptionFilter, IResultFilter, IAsyncController, IController, IAsyncManagerContainer</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController__ctor.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L20">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController__ctor_" data-uid="CRS.Controllers.MonthlyReportController.#ctor*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController__ctor" data-uid="CRS.Controllers.MonthlyReportController.#ctor">MonthlyReportController()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MonthlyReportController()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController__ctor_CRS_Models_IITOGTABRepository_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.%23ctor(CRS.Models.IITOGTABRepository)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L25">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController__ctor_" data-uid="CRS.Controllers.MonthlyReportController.#ctor*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController__ctor_CRS_Models_IITOGTABRepository_" data-uid="CRS.Controllers.MonthlyReportController.#ctor(CRS.Models.IITOGTABRepository)">MonthlyReportController(IITOGTABRepository)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MonthlyReportController(IITOGTABRepository itogtabRepository)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CRS.Models.IITOGTABRepository.html">IITOGTABRepository</a></td>
+        <td><span class="parametername">itogtabRepository</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_ChartAll_System_String_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.ChartAll(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L12933">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_ChartAll_" data-uid="CRS.Controllers.MonthlyReportController.ChartAll*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_ChartAll_System_String_System_String_" data-uid="CRS.Controllers.MonthlyReportController.ChartAll(System.String,System.String)">ChartAll(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult ChartAll(string date11, string date22)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">date11</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">date22</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_GetAllInfo_System_String_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.GetAllInfo(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L12486">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_GetAllInfo_" data-uid="CRS.Controllers.MonthlyReportController.GetAllInfo*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_GetAllInfo_System_String_System_String_" data-uid="CRS.Controllers.MonthlyReportController.GetAllInfo(System.String,System.String)">GetAllInfo(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult GetAllInfo(string date11, string date22)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">date11</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">date22</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_GetAllInfo1_System_String_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.GetAllInfo1(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L11598">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_GetAllInfo1_" data-uid="CRS.Controllers.MonthlyReportController.GetAllInfo1*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_GetAllInfo1_System_String_System_String_" data-uid="CRS.Controllers.MonthlyReportController.GetAllInfo1(System.String,System.String)">GetAllInfo1(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult GetAllInfo1(string date11, string date22)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">date11</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">date22</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_GetDataForITOGTAB.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.GetDataForITOGTAB%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L3422">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_GetDataForITOGTAB_" data-uid="CRS.Controllers.MonthlyReportController.GetDataForITOGTAB*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_GetDataForITOGTAB" data-uid="CRS.Controllers.MonthlyReportController.GetDataForITOGTAB">GetDataForITOGTAB()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;ForItogdata&gt; GetDataForITOGTAB()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="CRS.Models.ForItogdata.html">ForItogdata</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_GetDataForITOGTAB1.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.GetDataForITOGTAB1%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L7515">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_GetDataForITOGTAB1_" data-uid="CRS.Controllers.MonthlyReportController.GetDataForITOGTAB1*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_GetDataForITOGTAB1" data-uid="CRS.Controllers.MonthlyReportController.GetDataForITOGTAB1">GetDataForITOGTAB1()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;ForItogdata&gt; GetDataForITOGTAB1()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="CRS.Models.ForItogdata.html">ForItogdata</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_GetDataForITOGTABSpis_System_String_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.GetDataForITOGTABSpis(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L12047">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_GetDataForITOGTABSpis_" data-uid="CRS.Controllers.MonthlyReportController.GetDataForITOGTABSpis*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_GetDataForITOGTABSpis_System_String_System_String_" data-uid="CRS.Controllers.MonthlyReportController.GetDataForITOGTABSpis(System.String,System.String)">GetDataForITOGTABSpis(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Effective&gt; GetDataForITOGTABSpis(string date11, string date22)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">date11</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">date22</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="CRS.Models.Effective.html">Effective</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_GetEXCELAllInfo_System_String_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.GetEXCELAllInfo(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L13021">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_GetEXCELAllInfo_" data-uid="CRS.Controllers.MonthlyReportController.GetEXCELAllInfo*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_GetEXCELAllInfo_System_String_System_String_" data-uid="CRS.Controllers.MonthlyReportController.GetEXCELAllInfo(System.String,System.String)">GetEXCELAllInfo(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult GetEXCELAllInfo(string date11, string date22)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">date11</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">date22</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_GetYavochChislen40_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.GetYavochChislen40(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L13397">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_GetYavochChislen40_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislen40*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_GetYavochChislen40_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislen40(System.DateTime,System.DateTime)">GetYavochChislen40(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal GetYavochChislen40(DateTime date1, DateTime date2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_GetYavochChislen40DEPT_System_DateTime_System_DateTime_System_Guid_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.GetYavochChislen40DEPT(System.DateTime%2CSystem.DateTime%2CSystem.Guid)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L13473">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_GetYavochChislen40DEPT_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislen40DEPT*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_GetYavochChislen40DEPT_System_DateTime_System_DateTime_System_Guid_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislen40DEPT(System.DateTime,System.DateTime,System.Guid)">GetYavochChislen40DEPT(DateTime, DateTime, Guid)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal GetYavochChislen40DEPT(DateTime date1, DateTime date2, Guid DEPTID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">DEPTID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_GetYavochChislen40DEPTDESCR_System_DateTime_System_DateTime_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.GetYavochChislen40DEPTDESCR(System.DateTime%2CSystem.DateTime%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L13546">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_GetYavochChislen40DEPTDESCR_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislen40DEPTDESCR*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_GetYavochChislen40DEPTDESCR_System_DateTime_System_DateTime_System_String_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislen40DEPTDESCR(System.DateTime,System.DateTime,System.String)">GetYavochChislen40DEPTDESCR(DateTime, DateTime, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal GetYavochChislen40DEPTDESCR(DateTime date1, DateTime date2, string DEPTDESCR)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">DEPTDESCR</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_GetYavochChislen40DEPTREP_System_DateTime_System_DateTime_System_Guid_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.GetYavochChislen40DEPTREP(System.DateTime%2CSystem.DateTime%2CSystem.Guid)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L14416">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_GetYavochChislen40DEPTREP_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislen40DEPTREP*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_GetYavochChislen40DEPTREP_System_DateTime_System_DateTime_System_Guid_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislen40DEPTREP(System.DateTime,System.DateTime,System.Guid)">GetYavochChislen40DEPTREP(DateTime, DateTime, Guid)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal GetYavochChislen40DEPTREP(DateTime date1, DateTime date2, Guid REPID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">REPID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_GetYavochChislenbreitrab_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.GetYavochChislenbreitrab(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L13618">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_GetYavochChislenbreitrab_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenbreitrab*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_GetYavochChislenbreitrab_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenbreitrab(System.DateTime,System.DateTime)">GetYavochChislenbreitrab(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal GetYavochChislenbreitrab(DateTime date1, DateTime date2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_GetYavochChislenbreitrabDEPT_System_DateTime_System_DateTime_System_Guid_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.GetYavochChislenbreitrabDEPT(System.DateTime%2CSystem.DateTime%2CSystem.Guid)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L13931">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_GetYavochChislenbreitrabDEPT_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenbreitrabDEPT*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_GetYavochChislenbreitrabDEPT_System_DateTime_System_DateTime_System_Guid_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenbreitrabDEPT(System.DateTime,System.DateTime,System.Guid)">GetYavochChislenbreitrabDEPT(DateTime, DateTime, Guid)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal GetYavochChislenbreitrabDEPT(DateTime date1, DateTime date2, Guid DEPTID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">DEPTID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_GetYavochChislenob_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.GetYavochChislenob(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L13258">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_GetYavochChislenob_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenob*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_GetYavochChislenob_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenob(System.DateTime,System.DateTime)">GetYavochChislenob(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal GetYavochChislenob(DateTime date1, DateTime date2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_GetYavochChislenSubrab_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.GetYavochChislenSubrab(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L13685">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_GetYavochChislenSubrab_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenSubrab*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_GetYavochChislenSubrab_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenSubrab(System.DateTime,System.DateTime)">GetYavochChislenSubrab(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal GetYavochChislenSubrab(DateTime date1, DateTime date2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_GetYavochChislenSubrabDEPT_System_DateTime_System_DateTime_System_Guid_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.GetYavochChislenSubrabDEPT(System.DateTime%2CSystem.DateTime%2CSystem.Guid)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L14140">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_GetYavochChislenSubrabDEPT_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenSubrabDEPT*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_GetYavochChislenSubrabDEPT_System_DateTime_System_DateTime_System_Guid_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenSubrabDEPT(System.DateTime,System.DateTime,System.Guid)">GetYavochChislenSubrabDEPT(DateTime, DateTime, Guid)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal GetYavochChislenSubrabDEPT(DateTime date1, DateTime date2, Guid DEPTID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">DEPTID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_GetYavochChislenSubrabDEPTDESCR_System_DateTime_System_DateTime_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.GetYavochChislenSubrabDEPTDESCR(System.DateTime%2CSystem.DateTime%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L14210">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_GetYavochChislenSubrabDEPTDESCR_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenSubrabDEPTDESCR*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_GetYavochChislenSubrabDEPTDESCR_System_DateTime_System_DateTime_System_String_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenSubrabDEPTDESCR(System.DateTime,System.DateTime,System.String)">GetYavochChislenSubrabDEPTDESCR(DateTime, DateTime, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal GetYavochChislenSubrabDEPTDESCR(DateTime date1, DateTime date2, string DEPTDESCR)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">DEPTDESCR</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_GetYavochChislenSubrabDEPTREP_System_DateTime_System_DateTime_System_Guid_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.GetYavochChislenSubrabDEPTREP(System.DateTime%2CSystem.DateTime%2CSystem.Guid)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L14481">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_GetYavochChislenSubrabDEPTREP_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenSubrabDEPTREP*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_GetYavochChislenSubrabDEPTREP_System_DateTime_System_DateTime_System_Guid_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenSubrabDEPTREP(System.DateTime,System.DateTime,System.Guid)">GetYavochChislenSubrabDEPTREP(DateTime, DateTime, Guid)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal GetYavochChislenSubrabDEPTREP(DateTime date1, DateTime date2, Guid REPID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">REPID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_GetYavochChislenSubvih_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.GetYavochChislenSubvih(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L13756">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_GetYavochChislenSubvih_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenSubvih*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_GetYavochChislenSubvih_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenSubvih(System.DateTime,System.DateTime)">GetYavochChislenSubvih(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal GetYavochChislenSubvih(DateTime date1, DateTime date2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_GetYavochChislenSubvihDEPT_System_DateTime_System_DateTime_System_Guid_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.GetYavochChislenSubvihDEPT(System.DateTime%2CSystem.DateTime%2CSystem.Guid)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L14277">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_GetYavochChislenSubvihDEPT_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenSubvihDEPT*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_GetYavochChislenSubvihDEPT_System_DateTime_System_DateTime_System_Guid_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenSubvihDEPT(System.DateTime,System.DateTime,System.Guid)">GetYavochChislenSubvihDEPT(DateTime, DateTime, Guid)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal GetYavochChislenSubvihDEPT(DateTime date1, DateTime date2, Guid DEPTID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">DEPTID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_GetYavochChislenSubvihDEPTDESCR_System_DateTime_System_DateTime_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.GetYavochChislenSubvihDEPTDESCR(System.DateTime%2CSystem.DateTime%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L14348">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_GetYavochChislenSubvihDEPTDESCR_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenSubvihDEPTDESCR*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_GetYavochChislenSubvihDEPTDESCR_System_DateTime_System_DateTime_System_String_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenSubvihDEPTDESCR(System.DateTime,System.DateTime,System.String)">GetYavochChislenSubvihDEPTDESCR(DateTime, DateTime, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal GetYavochChislenSubvihDEPTDESCR(DateTime date1, DateTime date2, string DEPTDESCR)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">DEPTDESCR</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_GetYavochChislenSubvihDEPTREP_System_DateTime_System_DateTime_System_Guid_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.GetYavochChislenSubvihDEPTREP(System.DateTime%2CSystem.DateTime%2CSystem.Guid)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L14619">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_GetYavochChislenSubvihDEPTREP_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenSubvihDEPTREP*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_GetYavochChislenSubvihDEPTREP_System_DateTime_System_DateTime_System_Guid_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenSubvihDEPTREP(System.DateTime,System.DateTime,System.Guid)">GetYavochChislenSubvihDEPTREP(DateTime, DateTime, Guid)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal GetYavochChislenSubvihDEPTREP(DateTime date1, DateTime date2, Guid REPID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">REPID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_GetYavochChislenvih_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.GetYavochChislenvih(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L13323">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_GetYavochChislenvih_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenvih*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_GetYavochChislenvih_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenvih(System.DateTime,System.DateTime)">GetYavochChislenvih(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal GetYavochChislenvih(DateTime date1, DateTime date2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_GetYavochChislenvihDEPT_System_DateTime_System_DateTime_System_Guid_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.GetYavochChislenvihDEPT(System.DateTime%2CSystem.DateTime%2CSystem.Guid)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L13999">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_GetYavochChislenvihDEPT_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenvihDEPT*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_GetYavochChislenvihDEPT_System_DateTime_System_DateTime_System_Guid_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenvihDEPT(System.DateTime,System.DateTime,System.Guid)">GetYavochChislenvihDEPT(DateTime, DateTime, Guid)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal GetYavochChislenvihDEPT(DateTime date1, DateTime date2, Guid DEPTID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">DEPTID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_GetYavochChislenvihDEPTDESCR_System_DateTime_System_DateTime_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.GetYavochChislenvihDEPTDESCR(System.DateTime%2CSystem.DateTime%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L14071">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_GetYavochChislenvihDEPTDESCR_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenvihDEPTDESCR*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_GetYavochChislenvihDEPTDESCR_System_DateTime_System_DateTime_System_String_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenvihDEPTDESCR(System.DateTime,System.DateTime,System.String)">GetYavochChislenvihDEPTDESCR(DateTime, DateTime, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal GetYavochChislenvihDEPTDESCR(DateTime date1, DateTime date2, string DEPTDESCR)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">DEPTDESCR</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_GetYavochChislenvihDEPTREP_System_DateTime_System_DateTime_System_Guid_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.GetYavochChislenvihDEPTREP(System.DateTime%2CSystem.DateTime%2CSystem.Guid)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L14548">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_GetYavochChislenvihDEPTREP_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenvihDEPTREP*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_GetYavochChislenvihDEPTREP_System_DateTime_System_DateTime_System_Guid_" data-uid="CRS.Controllers.MonthlyReportController.GetYavochChislenvihDEPTREP(System.DateTime,System.DateTime,System.Guid)">GetYavochChislenvihDEPTREP(DateTime, DateTime, Guid)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal GetYavochChislenvihDEPTREP(DateTime date1, DateTime date2, Guid REPID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">REPID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_Index.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.Index%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L32">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_Index_" data-uid="CRS.Controllers.MonthlyReportController.Index*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_Index" data-uid="CRS.Controllers.MonthlyReportController.Index">Index()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Index()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_kolrabdays_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.kolrabdays(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L13831">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_kolrabdays_" data-uid="CRS.Controllers.MonthlyReportController.kolrabdays*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_kolrabdays_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.MonthlyReportController.kolrabdays(System.DateTime,System.DateTime)">kolrabdays(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int kolrabdays(DateTime date1, DateTime date2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_kolvihdays_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.kolvihdays(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L13880">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_kolvihdays_" data-uid="CRS.Controllers.MonthlyReportController.kolvihdays*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_kolvihdays_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.MonthlyReportController.kolvihdays(System.DateTime,System.DateTime)">kolvihdays(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int kolvihdays(DateTime date1, DateTime date2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_month1_System_DateTime_System_DateTime_System_String_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.month1(System.DateTime%2CSystem.DateTime%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L67">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_month1_" data-uid="CRS.Controllers.MonthlyReportController.month1*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_month1_System_DateTime_System_DateTime_System_String_System_String_" data-uid="CRS.Controllers.MonthlyReportController.month1(System.DateTime,System.DateTime,System.String,System.String)">month1(DateTime, DateTime, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult month1(DateTime date1, DateTime date2, string compan, string viborper)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">compan</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">viborper</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_RasschTotal.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.RasschTotal%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L14691">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_RasschTotal_" data-uid="CRS.Controllers.MonthlyReportController.RasschTotal*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_RasschTotal" data-uid="CRS.Controllers.MonthlyReportController.RasschTotal">RasschTotal()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult RasschTotal()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_SaveAllDataMonth_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.SaveAllDataMonth(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L15049">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_SaveAllDataMonth_" data-uid="CRS.Controllers.MonthlyReportController.SaveAllDataMonth*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_SaveAllDataMonth_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.MonthlyReportController.SaveAllDataMonth(System.DateTime,System.DateTime)">SaveAllDataMonth(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult SaveAllDataMonth(DateTime date1, DateTime date2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController_SaveITOGTAB.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController.SaveITOGTAB%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L46">View Source</a>
+  </span>
+  <a id="CRS_Controllers_MonthlyReportController_SaveITOGTAB_" data-uid="CRS.Controllers.MonthlyReportController.SaveITOGTAB*"></a>
+  <h4 id="CRS_Controllers_MonthlyReportController_SaveITOGTAB" data-uid="CRS.Controllers.MonthlyReportController.SaveITOGTAB">SaveITOGTAB()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult SaveITOGTAB()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.Web.Mvc.IActionFilter</span>
+  </div>
+  <div>
+      <span class="xref">System.Web.Mvc.IAuthorizationFilter</span>
+  </div>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <div>
+      <span class="xref">System.Web.Mvc.IExceptionFilter</span>
+  </div>
+  <div>
+      <span class="xref">System.Web.Mvc.IResultFilter</span>
+  </div>
+  <div>
+      <span class="xref">System.Web.Mvc.Async.IAsyncController</span>
+  </div>
+  <div>
+      <span class="xref">System.Web.Mvc.IController</span>
+  </div>
+  <div>
+      <span class="xref">System.Web.Mvc.Async.IAsyncManagerContainer</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_MonthlyReportController.md&amp;value=---%0Auid%3A%20CRS.Controllers.MonthlyReportController%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/MonthlyReportController.cs/#L15" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

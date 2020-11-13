@@ -1,0 +1,1621 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CombineReportController
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CombineReportController
+   ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CRS.Controllers.CombineReportController">
+  
+  
+  <h1 id="CRS_Controllers_CombineReportController" data-uid="CRS.Controllers.CombineReportController" class="text-break">Class CombineReportController
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">System.Web.Mvc.ControllerBase</span></div>
+    <div class="level2"><span class="xref">System.Web.Mvc.Controller</span></div>
+    <div class="level3"><a class="xref" href="MvcInternationalization.Controllers.BaseController.html">BaseController</a></div>
+    <div class="level4"><span class="xref">CombineReportController</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.Web.Mvc.IActionFilter</span></div>
+    <div><span class="xref">System.Web.Mvc.IAuthorizationFilter</span></div>
+    <div><span class="xref">System.IDisposable</span></div>
+    <div><span class="xref">System.Web.Mvc.IExceptionFilter</span></div>
+    <div><span class="xref">System.Web.Mvc.IResultFilter</span></div>
+    <div><span class="xref">System.Web.Mvc.Async.IAsyncController</span></div>
+    <div><span class="xref">System.Web.Mvc.IController</span></div>
+    <div><span class="xref">System.Web.Mvc.Async.IAsyncManagerContainer</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_monthper1">BaseController.monthper1</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_monthper2">BaseController.monthper2</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_colsim">BaseController.colsim</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_compansok">BaseController.compansok</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_br">BaseController.br</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_bran">BaseController.bran</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_de">BaseController.de</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_up">BaseController.up</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_raykoef">BaseController.raykoef</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_ksbc">BaseController.ksbc</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_kharm">BaseController.kharm</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_BeginExecuteCore_System_AsyncCallback_System_Object_">BaseController.BeginExecuteCore(AsyncCallback, Object)</a>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Content(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Content(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Content(System.String, System.String, System.Text.Encoding)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.CreateActionInvoker()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.CreateTempDataProvider()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Dispose(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.ExecuteCore()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.File(System.Byte[], System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.File(System.Byte[], System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.File(System.IO.Stream, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.File(System.IO.Stream, System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.File(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.File(System.String, System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.HandleUnknownAction(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.HttpNotFound()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.HttpNotFound(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.JavaScript(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Json(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Json(System.Object, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Json(System.Object, System.String, System.Text.Encoding)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Json(System.Object, System.Web.Mvc.JsonRequestBehavior)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Json(System.Object, System.String, System.Web.Mvc.JsonRequestBehavior)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Json(System.Object, System.String, System.Text.Encoding, System.Web.Mvc.JsonRequestBehavior)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Initialize(System.Web.Routing.RequestContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.OnAuthorization(System.Web.Mvc.AuthorizationContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.OnException(System.Web.Mvc.ExceptionContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.PartialView()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.PartialView(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.PartialView(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.PartialView(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Redirect(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectPermanent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToAction(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToAction(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToAction(System.String, System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToAction(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToAction(System.String, System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToAction(System.String, System.String, System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToActionPermanent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToActionPermanent(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToActionPermanent(System.String, System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToActionPermanent(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToActionPermanent(System.String, System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToActionPermanent(System.String, System.String, System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoute(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoute(System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoute(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoute(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoute(System.String, System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoutePermanent(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoutePermanent(System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoutePermanent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoutePermanent(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoutePermanent(System.String, System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String, System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String, System.String[], System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String, System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String[], System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String, System.String[], System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String, System.String[], System.String[], System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryValidateModel(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryValidateModel(System.Object, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String, System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String, System.String[], System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String, System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String[], System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String, System.String[], System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String, System.String[], System.String[], System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.ValidateModel(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.ValidateModel(System.Object, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.String, System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.Web.Mvc.IView)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.Web.Mvc.IView, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.BeginExecute(System.Web.Routing.RequestContext, System.AsyncCallback, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(System.IAsyncResult)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.BeginExecute(System.Web.Routing.RequestContext, System.AsyncCallback, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.EndExecute(System.IAsyncResult)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.EndExecuteCore(System.IAsyncResult)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.IActionFilter.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.IActionFilter.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.IAuthorizationFilter.OnAuthorization(System.Web.Mvc.AuthorizationContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.IExceptionFilter.OnException(System.Web.Mvc.ExceptionContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.IResultFilter.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.IResultFilter.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.AsyncManager</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.DisableAsyncSupport</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.ActionInvoker</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Binders</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.HttpContext</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.ModelState</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Profile</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Request</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Response</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RouteData</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Server</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Session</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TempDataProvider</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Url</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.User</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.ViewEngineCollection</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.Execute(System.Web.Routing.RequestContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(System.Web.Routing.RequestContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.ControllerContext</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.TempData</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.ValidateRequest</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.ValueProvider</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.ViewBag</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.ViewData</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CRS.Controllers.html">CRS.Controllers</a></h6>
+  <h6><strong>Assembly</strong>: Union.dll</h6>
+  <h5 id="CRS_Controllers_CombineReportController_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CombineReportController : BaseController, IActionFilter, IAuthorizationFilter, IDisposable, IExceptionFilter, IResultFilter, IAsyncController, IController, IAsyncManagerContainer</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_CombineReportController_ChartAveragePeople_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.CombineReportController.ChartAveragePeople(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/CombineReportController.cs/#L435">View Source</a>
+  </span>
+  <a id="CRS_Controllers_CombineReportController_ChartAveragePeople_" data-uid="CRS.Controllers.CombineReportController.ChartAveragePeople*"></a>
+  <h4 id="CRS_Controllers_CombineReportController_ChartAveragePeople_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.CombineReportController.ChartAveragePeople(System.DateTime,System.DateTime)">ChartAveragePeople(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult ChartAveragePeople(DateTime date1, DateTime date2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_CombineReportController_ChartAveragePeopleBig_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.CombineReportController.ChartAveragePeopleBig(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/CombineReportController.cs/#L307">View Source</a>
+  </span>
+  <a id="CRS_Controllers_CombineReportController_ChartAveragePeopleBig_" data-uid="CRS.Controllers.CombineReportController.ChartAveragePeopleBig*"></a>
+  <h4 id="CRS_Controllers_CombineReportController_ChartAveragePeopleBig_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.CombineReportController.ChartAveragePeopleBig(System.DateTime,System.DateTime)">ChartAveragePeopleBig(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult ChartAveragePeopleBig(DateTime date1, DateTime date2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_CombineReportController_ChartAveragePeopleCal_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.CombineReportController.ChartAveragePeopleCal(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/CombineReportController.cs/#L454">View Source</a>
+  </span>
+  <a id="CRS_Controllers_CombineReportController_ChartAveragePeopleCal_" data-uid="CRS.Controllers.CombineReportController.ChartAveragePeopleCal*"></a>
+  <h4 id="CRS_Controllers_CombineReportController_ChartAveragePeopleCal_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.CombineReportController.ChartAveragePeopleCal(System.DateTime,System.DateTime)">ChartAveragePeopleCal(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult ChartAveragePeopleCal(DateTime date1, DateTime date2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_CombineReportController_ChartJobType_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.CombineReportController.ChartJobType(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/CombineReportController.cs/#L294">View Source</a>
+  </span>
+  <a id="CRS_Controllers_CombineReportController_ChartJobType_" data-uid="CRS.Controllers.CombineReportController.ChartJobType*"></a>
+  <h4 id="CRS_Controllers_CombineReportController_ChartJobType_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.CombineReportController.ChartJobType(System.DateTime,System.DateTime)">ChartJobType(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult ChartJobType(DateTime date1, DateTime date2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_CombineReportController_ChartJobTypeDetal_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.CombineReportController.ChartJobTypeDetal(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/CombineReportController.cs/#L320">View Source</a>
+  </span>
+  <a id="CRS_Controllers_CombineReportController_ChartJobTypeDetal_" data-uid="CRS.Controllers.CombineReportController.ChartJobTypeDetal*"></a>
+  <h4 id="CRS_Controllers_CombineReportController_ChartJobTypeDetal_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.CombineReportController.ChartJobTypeDetal(System.DateTime,System.DateTime)">ChartJobTypeDetal(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult ChartJobTypeDetal(DateTime date1, DateTime date2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_CombineReportController_ChartUseOfLabour_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.CombineReportController.ChartUseOfLabour(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/CombineReportController.cs/#L333">View Source</a>
+  </span>
+  <a id="CRS_Controllers_CombineReportController_ChartUseOfLabour_" data-uid="CRS.Controllers.CombineReportController.ChartUseOfLabour*"></a>
+  <h4 id="CRS_Controllers_CombineReportController_ChartUseOfLabour_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.CombineReportController.ChartUseOfLabour(System.DateTime,System.DateTime)">ChartUseOfLabour(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult ChartUseOfLabour(DateTime date1, DateTime date2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_CombineReportController_CreateChart_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.CombineReportController.CreateChart(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/CombineReportController.cs/#L1462">View Source</a>
+  </span>
+  <a id="CRS_Controllers_CombineReportController_CreateChart_" data-uid="CRS.Controllers.CombineReportController.CreateChart*"></a>
+  <h4 id="CRS_Controllers_CombineReportController_CreateChart_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.CombineReportController.CreateChart(System.DateTime,System.DateTime)">CreateChart(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FileResult CreateChart(DateTime date1, DateTime date2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.FileResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_CombineReportController_CreateChartArea.md&amp;value=---%0Auid%3A%20CRS.Controllers.CombineReportController.CreateChartArea%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/CombineReportController.cs/#L1794">View Source</a>
+  </span>
+  <a id="CRS_Controllers_CombineReportController_CreateChartArea_" data-uid="CRS.Controllers.CombineReportController.CreateChartArea*"></a>
+  <h4 id="CRS_Controllers_CombineReportController_CreateChartArea" data-uid="CRS.Controllers.CombineReportController.CreateChartArea">CreateChartArea()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ChartArea CreateChartArea()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.UI.DataVisualization.Charting.ChartArea</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_CombineReportController_CreateTitle.md&amp;value=---%0Auid%3A%20CRS.Controllers.CombineReportController.CreateTitle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/CombineReportController.cs/#L1782">View Source</a>
+  </span>
+  <a id="CRS_Controllers_CombineReportController_CreateTitle_" data-uid="CRS.Controllers.CombineReportController.CreateTitle*"></a>
+  <h4 id="CRS_Controllers_CombineReportController_CreateTitle" data-uid="CRS.Controllers.CombineReportController.CreateTitle">CreateTitle()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Title CreateTitle()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.UI.DataVisualization.Charting.Title</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_CombineReportController_ExportDiag_System_String_System_String_System_Decimal_System_Decimal_System_Decimal_System_Decimal_System_Decimal_.md&amp;value=---%0Auid%3A%20CRS.Controllers.CombineReportController.ExportDiag(System.String%2CSystem.String%2CSystem.Decimal%2CSystem.Decimal%2CSystem.Decimal%2CSystem.Decimal%2CSystem.Decimal)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/CombineReportController.cs/#L1817">View Source</a>
+  </span>
+  <a id="CRS_Controllers_CombineReportController_ExportDiag_" data-uid="CRS.Controllers.CombineReportController.ExportDiag*"></a>
+  <h4 id="CRS_Controllers_CombineReportController_ExportDiag_System_String_System_String_System_Decimal_System_Decimal_System_Decimal_System_Decimal_System_Decimal_" data-uid="CRS.Controllers.CombineReportController.ExportDiag(System.String,System.String,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal)">ExportDiag(String, String, Decimal, Decimal, Decimal, Decimal, Decimal)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ExportDiag(string date11, string date22, decimal ftz, decimal sobstv, decimal tabtz, decimal sumvyh, decimal sumsur)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">date11</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">date22</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><span class="parametername">ftz</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><span class="parametername">sobstv</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><span class="parametername">tabtz</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><span class="parametername">sumvyh</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><span class="parametername">sumsur</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_CombineReportController_Forsalary_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.CombineReportController.Forsalary(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/CombineReportController.cs/#L618">View Source</a>
+  </span>
+  <a id="CRS_Controllers_CombineReportController_Forsalary_" data-uid="CRS.Controllers.CombineReportController.Forsalary*"></a>
+  <h4 id="CRS_Controllers_CombineReportController_Forsalary_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.CombineReportController.Forsalary(System.DateTime,System.DateTime)">Forsalary(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Forsalary(DateTime date1, DateTime date2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_CombineReportController_GetJobType_System_String_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.CombineReportController.GetJobType(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/CombineReportController.cs/#L350">View Source</a>
+  </span>
+  <a id="CRS_Controllers_CombineReportController_GetJobType_" data-uid="CRS.Controllers.CombineReportController.GetJobType*"></a>
+  <h4 id="CRS_Controllers_CombineReportController_GetJobType_System_String_System_String_" data-uid="CRS.Controllers.CombineReportController.GetJobType(System.String,System.String)">GetJobType(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult GetJobType(string date11, string date22)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">date11</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">date22</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_CombineReportController_Index.md&amp;value=---%0Auid%3A%20CRS.Controllers.CombineReportController.Index%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/CombineReportController.cs/#L25">View Source</a>
+  </span>
+  <a id="CRS_Controllers_CombineReportController_Index_" data-uid="CRS.Controllers.CombineReportController.Index*"></a>
+  <h4 id="CRS_Controllers_CombineReportController_Index" data-uid="CRS.Controllers.CombineReportController.Index">Index()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Index()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_CombineReportController_IndexDept.md&amp;value=---%0Auid%3A%20CRS.Controllers.CombineReportController.IndexDept%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/CombineReportController.cs/#L587">View Source</a>
+  </span>
+  <a id="CRS_Controllers_CombineReportController_IndexDept_" data-uid="CRS.Controllers.CombineReportController.IndexDept*"></a>
+  <h4 id="CRS_Controllers_CombineReportController_IndexDept" data-uid="CRS.Controllers.CombineReportController.IndexDept">IndexDept()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult IndexDept()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_CombineReportController_SetCulture_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.CombineReportController.SetCulture(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/CombineReportController.cs/#L595">View Source</a>
+  </span>
+  <a id="CRS_Controllers_CombineReportController_SetCulture_" data-uid="CRS.Controllers.CombineReportController.SetCulture*"></a>
+  <h4 id="CRS_Controllers_CombineReportController_SetCulture_System_String_" data-uid="CRS.Controllers.CombineReportController.SetCulture(System.String)">SetCulture(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult SetCulture(string culture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_CombineReportController_Tabelvygruz_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.CombineReportController.Tabelvygruz(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/CombineReportController.cs/#L1901">View Source</a>
+  </span>
+  <a id="CRS_Controllers_CombineReportController_Tabelvygruz_" data-uid="CRS.Controllers.CombineReportController.Tabelvygruz*"></a>
+  <h4 id="CRS_Controllers_CombineReportController_Tabelvygruz_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.CombineReportController.Tabelvygruz(System.DateTime,System.DateTime)">Tabelvygruz(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Tabelvygruz(DateTime date1, DateTime date2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_CombineReportController_Tabelzap.md&amp;value=---%0Auid%3A%20CRS.Controllers.CombineReportController.Tabelzap%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/CombineReportController.cs/#L35">View Source</a>
+  </span>
+  <a id="CRS_Controllers_CombineReportController_Tabelzap_" data-uid="CRS.Controllers.CombineReportController.Tabelzap*"></a>
+  <h4 id="CRS_Controllers_CombineReportController_Tabelzap" data-uid="CRS.Controllers.CombineReportController.Tabelzap">Tabelzap()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Tabelzap()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_CombineReportController_ViewForChart_System_String_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.CombineReportController.ViewForChart(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/CombineReportController.cs/#L87">View Source</a>
+  </span>
+  <a id="CRS_Controllers_CombineReportController_ViewForChart_" data-uid="CRS.Controllers.CombineReportController.ViewForChart*"></a>
+  <h4 id="CRS_Controllers_CombineReportController_ViewForChart_System_String_System_String_" data-uid="CRS.Controllers.CombineReportController.ViewForChart(System.String,System.String)">ViewForChart(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult ViewForChart(string date11, string date22)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">date11</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">date22</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_CombineReportController_VivodAveragepeople.md&amp;value=---%0Auid%3A%20CRS.Controllers.CombineReportController.VivodAveragepeople%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/CombineReportController.cs/#L63">View Source</a>
+  </span>
+  <a id="CRS_Controllers_CombineReportController_VivodAveragepeople_" data-uid="CRS.Controllers.CombineReportController.VivodAveragepeople*"></a>
+  <h4 id="CRS_Controllers_CombineReportController_VivodAveragepeople" data-uid="CRS.Controllers.CombineReportController.VivodAveragepeople">VivodAveragepeople()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult VivodAveragepeople()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_CombineReportController_VivodAveragepeopleBig.md&amp;value=---%0Auid%3A%20CRS.Controllers.CombineReportController.VivodAveragepeopleBig%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/CombineReportController.cs/#L69">View Source</a>
+  </span>
+  <a id="CRS_Controllers_CombineReportController_VivodAveragepeopleBig_" data-uid="CRS.Controllers.CombineReportController.VivodAveragepeopleBig*"></a>
+  <h4 id="CRS_Controllers_CombineReportController_VivodAveragepeopleBig" data-uid="CRS.Controllers.CombineReportController.VivodAveragepeopleBig">VivodAveragepeopleBig()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult VivodAveragepeopleBig()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_CombineReportController_VivodDiagram.md&amp;value=---%0Auid%3A%20CRS.Controllers.CombineReportController.VivodDiagram%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/CombineReportController.cs/#L44">View Source</a>
+  </span>
+  <a id="CRS_Controllers_CombineReportController_VivodDiagram_" data-uid="CRS.Controllers.CombineReportController.VivodDiagram*"></a>
+  <h4 id="CRS_Controllers_CombineReportController_VivodDiagram" data-uid="CRS.Controllers.CombineReportController.VivodDiagram">VivodDiagram()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult VivodDiagram()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_CombineReportController_VivodJobType.md&amp;value=---%0Auid%3A%20CRS.Controllers.CombineReportController.VivodJobType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/CombineReportController.cs/#L55">View Source</a>
+  </span>
+  <a id="CRS_Controllers_CombineReportController_VivodJobType_" data-uid="CRS.Controllers.CombineReportController.VivodJobType*"></a>
+  <h4 id="CRS_Controllers_CombineReportController_VivodJobType" data-uid="CRS.Controllers.CombineReportController.VivodJobType">VivodJobType()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult VivodJobType()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_CombineReportController_VivodJobTypeDetal.md&amp;value=---%0Auid%3A%20CRS.Controllers.CombineReportController.VivodJobTypeDetal%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/CombineReportController.cs/#L81">View Source</a>
+  </span>
+  <a id="CRS_Controllers_CombineReportController_VivodJobTypeDetal_" data-uid="CRS.Controllers.CombineReportController.VivodJobTypeDetal*"></a>
+  <h4 id="CRS_Controllers_CombineReportController_VivodJobTypeDetal" data-uid="CRS.Controllers.CombineReportController.VivodJobTypeDetal">VivodJobTypeDetal()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult VivodJobTypeDetal()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_CombineReportController_VivodUseOfLabour.md&amp;value=---%0Auid%3A%20CRS.Controllers.CombineReportController.VivodUseOfLabour%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/CombineReportController.cs/#L75">View Source</a>
+  </span>
+  <a id="CRS_Controllers_CombineReportController_VivodUseOfLabour_" data-uid="CRS.Controllers.CombineReportController.VivodUseOfLabour*"></a>
+  <h4 id="CRS_Controllers_CombineReportController_VivodUseOfLabour" data-uid="CRS.Controllers.CombineReportController.VivodUseOfLabour">VivodUseOfLabour()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult VivodUseOfLabour()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.Web.Mvc.IActionFilter</span>
+  </div>
+  <div>
+      <span class="xref">System.Web.Mvc.IAuthorizationFilter</span>
+  </div>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <div>
+      <span class="xref">System.Web.Mvc.IExceptionFilter</span>
+  </div>
+  <div>
+      <span class="xref">System.Web.Mvc.IResultFilter</span>
+  </div>
+  <div>
+      <span class="xref">System.Web.Mvc.Async.IAsyncController</span>
+  </div>
+  <div>
+      <span class="xref">System.Web.Mvc.IController</span>
+  </div>
+  <div>
+      <span class="xref">System.Web.Mvc.Async.IAsyncManagerContainer</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_CombineReportController.md&amp;value=---%0Auid%3A%20CRS.Controllers.CombineReportController%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/CombineReportController.cs/#L20" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

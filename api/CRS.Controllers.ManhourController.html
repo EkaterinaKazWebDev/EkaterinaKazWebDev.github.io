@@ -1,0 +1,1880 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ManhourController
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ManhourController
+   ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CRS.Controllers.ManhourController">
+  
+  
+  <h1 id="CRS_Controllers_ManhourController" data-uid="CRS.Controllers.ManhourController" class="text-break">Class ManhourController
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">System.Web.Mvc.ControllerBase</span></div>
+    <div class="level2"><span class="xref">System.Web.Mvc.Controller</span></div>
+    <div class="level3"><a class="xref" href="MvcInternationalization.Controllers.BaseController.html">BaseController</a></div>
+    <div class="level4"><span class="xref">ManhourController</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.Web.Mvc.IActionFilter</span></div>
+    <div><span class="xref">System.Web.Mvc.IAuthorizationFilter</span></div>
+    <div><span class="xref">System.IDisposable</span></div>
+    <div><span class="xref">System.Web.Mvc.IExceptionFilter</span></div>
+    <div><span class="xref">System.Web.Mvc.IResultFilter</span></div>
+    <div><span class="xref">System.Web.Mvc.Async.IAsyncController</span></div>
+    <div><span class="xref">System.Web.Mvc.IController</span></div>
+    <div><span class="xref">System.Web.Mvc.Async.IAsyncManagerContainer</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_monthper1">BaseController.monthper1</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_monthper2">BaseController.monthper2</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_colsim">BaseController.colsim</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_compansok">BaseController.compansok</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_br">BaseController.br</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_bran">BaseController.bran</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_de">BaseController.de</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_up">BaseController.up</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_raykoef">BaseController.raykoef</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_ksbc">BaseController.ksbc</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_kharm">BaseController.kharm</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_BeginExecuteCore_System_AsyncCallback_System_Object_">BaseController.BeginExecuteCore(AsyncCallback, Object)</a>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Content(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Content(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Content(System.String, System.String, System.Text.Encoding)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.CreateActionInvoker()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.CreateTempDataProvider()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Dispose(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.ExecuteCore()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.File(System.Byte[], System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.File(System.Byte[], System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.File(System.IO.Stream, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.File(System.IO.Stream, System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.File(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.File(System.String, System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.HandleUnknownAction(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.HttpNotFound()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.HttpNotFound(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.JavaScript(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Json(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Json(System.Object, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Json(System.Object, System.String, System.Text.Encoding)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Json(System.Object, System.Web.Mvc.JsonRequestBehavior)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Json(System.Object, System.String, System.Web.Mvc.JsonRequestBehavior)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Json(System.Object, System.String, System.Text.Encoding, System.Web.Mvc.JsonRequestBehavior)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Initialize(System.Web.Routing.RequestContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.OnAuthorization(System.Web.Mvc.AuthorizationContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.OnException(System.Web.Mvc.ExceptionContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.PartialView()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.PartialView(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.PartialView(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.PartialView(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Redirect(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectPermanent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToAction(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToAction(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToAction(System.String, System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToAction(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToAction(System.String, System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToAction(System.String, System.String, System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToActionPermanent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToActionPermanent(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToActionPermanent(System.String, System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToActionPermanent(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToActionPermanent(System.String, System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToActionPermanent(System.String, System.String, System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoute(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoute(System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoute(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoute(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoute(System.String, System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoutePermanent(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoutePermanent(System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoutePermanent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoutePermanent(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoutePermanent(System.String, System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String, System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String, System.String[], System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String, System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String[], System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String, System.String[], System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String, System.String[], System.String[], System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryValidateModel(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryValidateModel(System.Object, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String, System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String, System.String[], System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String, System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String[], System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String, System.String[], System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String, System.String[], System.String[], System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.ValidateModel(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.ValidateModel(System.Object, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.String, System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.Web.Mvc.IView)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.Web.Mvc.IView, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.BeginExecute(System.Web.Routing.RequestContext, System.AsyncCallback, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(System.IAsyncResult)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.BeginExecute(System.Web.Routing.RequestContext, System.AsyncCallback, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.EndExecute(System.IAsyncResult)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.EndExecuteCore(System.IAsyncResult)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.IActionFilter.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.IActionFilter.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.IAuthorizationFilter.OnAuthorization(System.Web.Mvc.AuthorizationContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.IExceptionFilter.OnException(System.Web.Mvc.ExceptionContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.IResultFilter.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.IResultFilter.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.AsyncManager</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.DisableAsyncSupport</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.ActionInvoker</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Binders</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.HttpContext</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.ModelState</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Profile</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Request</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Response</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RouteData</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Server</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Session</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TempDataProvider</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Url</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.User</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.ViewEngineCollection</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.Execute(System.Web.Routing.RequestContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(System.Web.Routing.RequestContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.ControllerContext</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.TempData</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.ValidateRequest</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.ValueProvider</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.ViewBag</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.ViewData</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CRS.Controllers.html">CRS.Controllers</a></h6>
+  <h6><strong>Assembly</strong>: Union.dll</h6>
+  <h5 id="CRS_Controllers_ManhourController_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ManhourController : BaseController, IActionFilter, IAuthorizationFilter, IDisposable, IExceptionFilter, IResultFilter, IAsyncController, IController, IAsyncManagerContainer</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_Contractmanhour_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.Contractmanhour(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L343">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_Contractmanhour_" data-uid="CRS.Controllers.ManhourController.Contractmanhour*"></a>
+  <h4 id="CRS_Controllers_ManhourController_Contractmanhour_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.ManhourController.Contractmanhour(System.DateTime,System.DateTime)">Contractmanhour(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Contractmanhour(DateTime Firstdate, DateTime Seconddate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">Firstdate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">Seconddate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_Contractmanhour1_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.Contractmanhour1(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L546">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_Contractmanhour1_" data-uid="CRS.Controllers.ManhourController.Contractmanhour1*"></a>
+  <h4 id="CRS_Controllers_ManhourController_Contractmanhour1_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.ManhourController.Contractmanhour1(System.DateTime,System.DateTime)">Contractmanhour1(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Contractmanhour1(DateTime Firstdate, DateTime Seconddate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">Firstdate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">Seconddate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_Contractmanhourall_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.Contractmanhourall(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L1735">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_Contractmanhourall_" data-uid="CRS.Controllers.ManhourController.Contractmanhourall*"></a>
+  <h4 id="CRS_Controllers_ManhourController_Contractmanhourall_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.ManhourController.Contractmanhourall(System.DateTime,System.DateTime)">Contractmanhourall(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Contractmanhourall(DateTime Firstdate, DateTime Seconddate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">Firstdate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">Seconddate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_Contractmanhoursmobiledept_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.Contractmanhoursmobiledept(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L194">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_Contractmanhoursmobiledept_" data-uid="CRS.Controllers.ManhourController.Contractmanhoursmobiledept*"></a>
+  <h4 id="CRS_Controllers_ManhourController_Contractmanhoursmobiledept_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.ManhourController.Contractmanhoursmobiledept(System.DateTime,System.DateTime)">Contractmanhoursmobiledept(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Contractmanhoursmobiledept(DateTime Firstdate, DateTime Seconddate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">Firstdate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">Seconddate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_Contractmanhoursub_System_DateTime_System_DateTime_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.Contractmanhoursub(System.DateTime%2CSystem.DateTime%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L1300">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_Contractmanhoursub_" data-uid="CRS.Controllers.ManhourController.Contractmanhoursub*"></a>
+  <h4 id="CRS_Controllers_ManhourController_Contractmanhoursub_System_DateTime_System_DateTime_System_String_" data-uid="CRS.Controllers.ManhourController.Contractmanhoursub(System.DateTime,System.DateTime,System.String)">Contractmanhoursub(DateTime, DateTime, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Contractmanhoursub(DateTime date1, DateTime date2, string Depart)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Depart</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_Contractmanhoursubdept_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.Contractmanhoursubdept(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L78">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_Contractmanhoursubdept_" data-uid="CRS.Controllers.ManhourController.Contractmanhoursubdept*"></a>
+  <h4 id="CRS_Controllers_ManhourController_Contractmanhoursubdept_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.ManhourController.Contractmanhoursubdept(System.DateTime,System.DateTime)">Contractmanhoursubdept(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Contractmanhoursubdept(DateTime Firstdate, DateTime Seconddate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">Firstdate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">Seconddate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_ExportShiftmanhours_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.ExportShiftmanhours(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L3532">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_ExportShiftmanhours_" data-uid="CRS.Controllers.ManhourController.ExportShiftmanhours*"></a>
+  <h4 id="CRS_Controllers_ManhourController_ExportShiftmanhours_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.ManhourController.ExportShiftmanhours(System.DateTime,System.DateTime)">ExportShiftmanhours(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult ExportShiftmanhours(DateTime date1, DateTime date2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_Factindex.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.Factindex%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L2044">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_Factindex_" data-uid="CRS.Controllers.ManhourController.Factindex*"></a>
+  <h4 id="CRS_Controllers_ManhourController_Factindex" data-uid="CRS.Controllers.ManhourController.Factindex">Factindex()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Factindex()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_Factindexsub.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.Factindexsub%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L3346">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_Factindexsub_" data-uid="CRS.Controllers.ManhourController.Factindexsub*"></a>
+  <h4 id="CRS_Controllers_ManhourController_Factindexsub" data-uid="CRS.Controllers.ManhourController.Factindexsub">Factindexsub()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Factindexsub()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_Facttz_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.Facttz(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L2055">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_Facttz_" data-uid="CRS.Controllers.ManhourController.Facttz*"></a>
+  <h4 id="CRS_Controllers_ManhourController_Facttz_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.ManhourController.Facttz(System.DateTime,System.DateTime)">Facttz(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Facttz(DateTime Firstdate, DateTime Seconddate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">Firstdate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">Seconddate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_Forsalary.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.Forsalary%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L1721">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_Forsalary_" data-uid="CRS.Controllers.ManhourController.Forsalary*"></a>
+  <h4 id="CRS_Controllers_ManhourController_Forsalary" data-uid="CRS.Controllers.ManhourController.Forsalary">Forsalary()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Forsalary()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_Forsalary_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.Forsalary(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L1579">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_Forsalary_" data-uid="CRS.Controllers.ManhourController.Forsalary*"></a>
+  <h4 id="CRS_Controllers_ManhourController_Forsalary_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.ManhourController.Forsalary(System.DateTime,System.DateTime)">Forsalary(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpPost]
+public ActionResult Forsalary(DateTime date1, DateTime date2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_Forsalary11_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.Forsalary11(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L1436">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_Forsalary11_" data-uid="CRS.Controllers.ManhourController.Forsalary11*"></a>
+  <h4 id="CRS_Controllers_ManhourController_Forsalary11_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.ManhourController.Forsalary11(System.DateTime,System.DateTime)">Forsalary11(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpPost]
+public ActionResult Forsalary11(DateTime date1, DateTime date2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_Forsalarymob.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.Forsalarymob%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L1728">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_Forsalarymob_" data-uid="CRS.Controllers.ManhourController.Forsalarymob*"></a>
+  <h4 id="CRS_Controllers_ManhourController_Forsalarymob" data-uid="CRS.Controllers.ManhourController.Forsalarymob">Forsalarymob()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Forsalarymob()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_HoursForWeekend.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.HoursForWeekend%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L3017">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_HoursForWeekend_" data-uid="CRS.Controllers.ManhourController.HoursForWeekend*"></a>
+  <h4 id="CRS_Controllers_ManhourController_HoursForWeekend" data-uid="CRS.Controllers.ManhourController.HoursForWeekend">HoursForWeekend()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult HoursForWeekend()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_HoursForWeekendKR.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.HoursForWeekendKR%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L3026">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_HoursForWeekendKR_" data-uid="CRS.Controllers.ManhourController.HoursForWeekendKR*"></a>
+  <h4 id="CRS_Controllers_ManhourController_HoursForWeekendKR" data-uid="CRS.Controllers.ManhourController.HoursForWeekendKR">HoursForWeekendKR()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult HoursForWeekendKR()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_Index.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.Index%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L24">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_Index_" data-uid="CRS.Controllers.ManhourController.Index*"></a>
+  <h4 id="CRS_Controllers_ManhourController_Index" data-uid="CRS.Controllers.ManhourController.Index">Index()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Index()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_Indexall.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.Indexall%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L309">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_Indexall_" data-uid="CRS.Controllers.ManhourController.Indexall*"></a>
+  <h4 id="CRS_Controllers_ManhourController_Indexall" data-uid="CRS.Controllers.ManhourController.Indexall">Indexall()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Indexall()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_Indexmaster.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.Indexmaster%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L330">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_Indexmaster_" data-uid="CRS.Controllers.ManhourController.Indexmaster*"></a>
+  <h4 id="CRS_Controllers_ManhourController_Indexmaster" data-uid="CRS.Controllers.ManhourController.Indexmaster">Indexmaster()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Indexmaster()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_Indexmobiledept.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.Indexmobiledept%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L71">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_Indexmobiledept_" data-uid="CRS.Controllers.ManhourController.Indexmobiledept*"></a>
+  <h4 id="CRS_Controllers_ManhourController_Indexmobiledept" data-uid="CRS.Controllers.ManhourController.Indexmobiledept">Indexmobiledept()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Indexmobiledept()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_Indexsub.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.Indexsub%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L320">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_Indexsub_" data-uid="CRS.Controllers.ManhourController.Indexsub*"></a>
+  <h4 id="CRS_Controllers_ManhourController_Indexsub" data-uid="CRS.Controllers.ManhourController.Indexsub">Indexsub()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Indexsub()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_Indexsubdept.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.Indexsubdept%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L41">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_Indexsubdept_" data-uid="CRS.Controllers.ManhourController.Indexsubdept*"></a>
+  <h4 id="CRS_Controllers_ManhourController_Indexsubdept" data-uid="CRS.Controllers.ManhourController.Indexsubdept">Indexsubdept()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Indexsubdept()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_mesyatsstring_System_Int32_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.mesyatsstring(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L3705">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_mesyatsstring_" data-uid="CRS.Controllers.ManhourController.mesyatsstring*"></a>
+  <h4 id="CRS_Controllers_ManhourController_mesyatsstring_System_Int32_" data-uid="CRS.Controllers.ManhourController.mesyatsstring(System.Int32)">mesyatsstring(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string mesyatsstring(int mon)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">mon</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_ReftDepart1_System_String_System_Nullable_System_DateTime__System_Nullable_System_DateTime__.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.ReftDepart1(System.String%2CSystem.Nullable%7BSystem.DateTime%7D%2CSystem.Nullable%7BSystem.DateTime%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L1858">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_ReftDepart1_" data-uid="CRS.Controllers.ManhourController.ReftDepart1*"></a>
+  <h4 id="CRS_Controllers_ManhourController_ReftDepart1_System_String_System_Nullable_System_DateTime__System_Nullable_System_DateTime__" data-uid="CRS.Controllers.ManhourController.ReftDepart1(System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime})">ReftDepart1(String, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult ReftDepart1(string Depart, DateTime? ndate1, DateTime? ndate2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Depart</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">ndate1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">ndate2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_ReportForSuborgTabel_System_DateTime_System_DateTime_System_Guid_System_Nullable_System_Guid__.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.ReportForSuborgTabel(System.DateTime%2CSystem.DateTime%2CSystem.Guid%2CSystem.Nullable%7BSystem.Guid%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L3365">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_ReportForSuborgTabel_" data-uid="CRS.Controllers.ManhourController.ReportForSuborgTabel*"></a>
+  <h4 id="CRS_Controllers_ManhourController_ReportForSuborgTabel_System_DateTime_System_DateTime_System_Guid_System_Nullable_System_Guid__" data-uid="CRS.Controllers.ManhourController.ReportForSuborgTabel(System.DateTime,System.DateTime,System.Guid,System.Nullable{System.Guid})">ReportForSuborgTabel(DateTime, DateTime, Guid, Nullable&lt;Guid&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpPost]
+public ActionResult ReportForSuborgTabel(DateTime date1, DateTime date2, Guid SuborgId, Guid? ContractId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">SuborgId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Guid</span>&gt;</td>
+        <td><span class="parametername">ContractId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_ReportSubDept.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.ReportSubDept%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L47">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_ReportSubDept_" data-uid="CRS.Controllers.ManhourController.ReportSubDept*"></a>
+  <h4 id="CRS_Controllers_ManhourController_ReportSubDept" data-uid="CRS.Controllers.ManhourController.ReportSubDept">ReportSubDept()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult ReportSubDept()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_ReportWeekend_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.ReportWeekend(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L2354">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_ReportWeekend_" data-uid="CRS.Controllers.ManhourController.ReportWeekend*"></a>
+  <h4 id="CRS_Controllers_ManhourController_ReportWeekend_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.ManhourController.ReportWeekend(System.DateTime,System.DateTime)">ReportWeekend(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult ReportWeekend(DateTime date1, DateTime date2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_ReportWeekendAll_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.ReportWeekendAll(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L3036">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_ReportWeekendAll_" data-uid="CRS.Controllers.ManhourController.ReportWeekendAll*"></a>
+  <h4 id="CRS_Controllers_ManhourController_ReportWeekendAll_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.ManhourController.ReportWeekendAll(System.DateTime,System.DateTime)">ReportWeekendAll(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult ReportWeekendAll(DateTime date1, DateTime date2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_ReportWeekendKR_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.ReportWeekendKR(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L2710">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_ReportWeekendKR_" data-uid="CRS.Controllers.ManhourController.ReportWeekendKR*"></a>
+  <h4 id="CRS_Controllers_ManhourController_ReportWeekendKR_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.ManhourController.ReportWeekendKR(System.DateTime,System.DateTime)">ReportWeekendKR(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult ReportWeekendKR(DateTime date1, DateTime date2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController_ShiftManhours.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController.ShiftManhours%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L33">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ManhourController_ShiftManhours_" data-uid="CRS.Controllers.ManhourController.ShiftManhours*"></a>
+  <h4 id="CRS_Controllers_ManhourController_ShiftManhours" data-uid="CRS.Controllers.ManhourController.ShiftManhours">ShiftManhours()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult ShiftManhours()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.Web.Mvc.IActionFilter</span>
+  </div>
+  <div>
+      <span class="xref">System.Web.Mvc.IAuthorizationFilter</span>
+  </div>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <div>
+      <span class="xref">System.Web.Mvc.IExceptionFilter</span>
+  </div>
+  <div>
+      <span class="xref">System.Web.Mvc.IResultFilter</span>
+  </div>
+  <div>
+      <span class="xref">System.Web.Mvc.Async.IAsyncController</span>
+  </div>
+  <div>
+      <span class="xref">System.Web.Mvc.IController</span>
+  </div>
+  <div>
+      <span class="xref">System.Web.Mvc.Async.IAsyncManagerContainer</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ManhourController.md&amp;value=---%0Auid%3A%20CRS.Controllers.ManhourController%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ManhourController.cs/#L20" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,3341 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ReftController
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ReftController
+   ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CRS.Controllers.ReftController">
+  
+  
+  <h1 id="CRS_Controllers_ReftController" data-uid="CRS.Controllers.ReftController" class="text-break">Class ReftController
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">System.Web.Mvc.ControllerBase</span></div>
+    <div class="level2"><span class="xref">System.Web.Mvc.Controller</span></div>
+    <div class="level3"><a class="xref" href="MvcInternationalization.Controllers.BaseController.html">BaseController</a></div>
+    <div class="level4"><span class="xref">ReftController</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.Web.Mvc.IActionFilter</span></div>
+    <div><span class="xref">System.Web.Mvc.IAuthorizationFilter</span></div>
+    <div><span class="xref">System.IDisposable</span></div>
+    <div><span class="xref">System.Web.Mvc.IExceptionFilter</span></div>
+    <div><span class="xref">System.Web.Mvc.IResultFilter</span></div>
+    <div><span class="xref">System.Web.Mvc.Async.IAsyncController</span></div>
+    <div><span class="xref">System.Web.Mvc.IController</span></div>
+    <div><span class="xref">System.Web.Mvc.Async.IAsyncManagerContainer</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_monthper1">BaseController.monthper1</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_monthper2">BaseController.monthper2</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_colsim">BaseController.colsim</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_compansok">BaseController.compansok</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_br">BaseController.br</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_bran">BaseController.bran</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_de">BaseController.de</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_up">BaseController.up</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_raykoef">BaseController.raykoef</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_ksbc">BaseController.ksbc</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_kharm">BaseController.kharm</a>
+    </div>
+    <div>
+      <a class="xref" href="MvcInternationalization.Controllers.BaseController.html#MvcInternationalization_Controllers_BaseController_BeginExecuteCore_System_AsyncCallback_System_Object_">BaseController.BeginExecuteCore(AsyncCallback, Object)</a>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Content(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Content(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Content(System.String, System.String, System.Text.Encoding)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.CreateActionInvoker()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.CreateTempDataProvider()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.ExecuteCore()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.File(System.Byte[], System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.File(System.Byte[], System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.File(System.IO.Stream, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.File(System.IO.Stream, System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.File(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.File(System.String, System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.HandleUnknownAction(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.HttpNotFound()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.HttpNotFound(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.JavaScript(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Json(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Json(System.Object, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Json(System.Object, System.String, System.Text.Encoding)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Json(System.Object, System.Web.Mvc.JsonRequestBehavior)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Json(System.Object, System.String, System.Web.Mvc.JsonRequestBehavior)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Json(System.Object, System.String, System.Text.Encoding, System.Web.Mvc.JsonRequestBehavior)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Initialize(System.Web.Routing.RequestContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.OnAuthorization(System.Web.Mvc.AuthorizationContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.OnException(System.Web.Mvc.ExceptionContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.PartialView()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.PartialView(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.PartialView(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.PartialView(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Redirect(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectPermanent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToAction(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToAction(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToAction(System.String, System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToAction(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToAction(System.String, System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToAction(System.String, System.String, System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToActionPermanent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToActionPermanent(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToActionPermanent(System.String, System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToActionPermanent(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToActionPermanent(System.String, System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToActionPermanent(System.String, System.String, System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoute(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoute(System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoute(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoute(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoute(System.String, System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoutePermanent(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoutePermanent(System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoutePermanent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoutePermanent(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RedirectToRoutePermanent(System.String, System.Web.Routing.RouteValueDictionary)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String, System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String, System.String[], System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String, System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String[], System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String, System.String[], System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryUpdateModel&lt;TModel&gt;(TModel, System.String, System.String[], System.String[], System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryValidateModel(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TryValidateModel(System.Object, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String, System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String, System.String[], System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String, System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String[], System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String, System.String[], System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.UpdateModel&lt;TModel&gt;(TModel, System.String, System.String[], System.String[], System.Web.Mvc.IValueProvider)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.ValidateModel(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.ValidateModel(System.Object, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View()</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.String, System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.Web.Mvc.IView)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.View(System.Web.Mvc.IView, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.BeginExecute(System.Web.Routing.RequestContext, System.AsyncCallback, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(System.IAsyncResult)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.BeginExecute(System.Web.Routing.RequestContext, System.AsyncCallback, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.EndExecute(System.IAsyncResult)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.EndExecuteCore(System.IAsyncResult)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.IActionFilter.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.IActionFilter.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.IAuthorizationFilter.OnAuthorization(System.Web.Mvc.AuthorizationContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.IExceptionFilter.OnException(System.Web.Mvc.ExceptionContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.IResultFilter.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.System.Web.Mvc.IResultFilter.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.AsyncManager</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.DisableAsyncSupport</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.ActionInvoker</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Binders</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.HttpContext</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.ModelState</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Profile</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Request</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Response</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.RouteData</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Server</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Session</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.TempDataProvider</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.Url</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.User</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.Controller.ViewEngineCollection</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.Execute(System.Web.Routing.RequestContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(System.Web.Routing.RequestContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.ControllerContext</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.TempData</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.ValidateRequest</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.ValueProvider</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.ViewBag</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Mvc.ControllerBase.ViewData</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CRS.Controllers.html">CRS.Controllers</a></h6>
+  <h6><strong>Assembly</strong>: Union.dll</h6>
+  <h5 id="CRS_Controllers_ReftController_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ReftController : BaseController, IActionFilter, IAuthorizationFilter, IDisposable, IExceptionFilter, IResultFilter, IAsyncController, IController, IAsyncManagerContainer</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController__ctor.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L26">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController__ctor_" data-uid="CRS.Controllers.ReftController.#ctor*"></a>
+  <h4 id="CRS_Controllers_ReftController__ctor" data-uid="CRS.Controllers.ReftController.#ctor">ReftController()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReftController()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController__ctor_CRS_Models_IREPAIRRepository_CRS_Models_IASSISTANTRepository_CRS_Models_IACTIVITYRepository_CRS_Models_IEMPLOYEERepository_CRS_Models_IACTRepository_CRS_Models_ISUBACTRepository_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.%23ctor(CRS.Models.IREPAIRRepository%2CCRS.Models.IASSISTANTRepository%2CCRS.Models.IACTIVITYRepository%2CCRS.Models.IEMPLOYEERepository%2CCRS.Models.IACTRepository%2CCRS.Models.ISUBACTRepository)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L31">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController__ctor_" data-uid="CRS.Controllers.ReftController.#ctor*"></a>
+  <h4 id="CRS_Controllers_ReftController__ctor_CRS_Models_IREPAIRRepository_CRS_Models_IASSISTANTRepository_CRS_Models_IACTIVITYRepository_CRS_Models_IEMPLOYEERepository_CRS_Models_IACTRepository_CRS_Models_ISUBACTRepository_" data-uid="CRS.Controllers.ReftController.#ctor(CRS.Models.IREPAIRRepository,CRS.Models.IASSISTANTRepository,CRS.Models.IACTIVITYRepository,CRS.Models.IEMPLOYEERepository,CRS.Models.IACTRepository,CRS.Models.ISUBACTRepository)">ReftController(IREPAIRRepository, IASSISTANTRepository, IACTIVITYRepository, IEMPLOYEERepository, IACTRepository, ISUBACTRepository)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReftController(IREPAIRRepository repairRepository, IASSISTANTRepository assistantRepository, IACTIVITYRepository activityRepository, IEMPLOYEERepository employeeRepository, IACTRepository actRepository, ISUBACTRepository subactRepository)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CRS.Models.IREPAIRRepository.html">IREPAIRRepository</a></td>
+        <td><span class="parametername">repairRepository</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CRS.Models.IASSISTANTRepository.html">IASSISTANTRepository</a></td>
+        <td><span class="parametername">assistantRepository</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CRS.Models.IACTIVITYRepository.html">IACTIVITYRepository</a></td>
+        <td><span class="parametername">activityRepository</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CRS.Models.IEMPLOYEERepository.html">IEMPLOYEERepository</a></td>
+        <td><span class="parametername">employeeRepository</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CRS.Models.IACTRepository.html">IACTRepository</a></td>
+        <td><span class="parametername">actRepository</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CRS.Models.ISUBACTRepository.html">ISUBACTRepository</a></td>
+        <td><span class="parametername">subactRepository</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_EmployeeGridRequest.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.EmployeeGridRequest%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L41">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_EmployeeGridRequest_" data-uid="CRS.Controllers.ReftController.EmployeeGridRequest*"></a>
+  <h4 id="CRS_Controllers_ReftController_EmployeeGridRequest" data-uid="CRS.Controllers.ReftController.EmployeeGridRequest">EmployeeGridRequest</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GridDataRequest EmployeeGridRequest { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CRS.Models.Request.GridDataRequest.html">GridDataRequest</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_Choosebranch.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.Choosebranch%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L515">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_Choosebranch_" data-uid="CRS.Controllers.ReftController.Choosebranch*"></a>
+  <h4 id="CRS_Controllers_ReftController_Choosebranch" data-uid="CRS.Controllers.ReftController.Choosebranch">Choosebranch()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OutputCache(Duration = 30, Location = OutputCacheLocation.Downstream)]
+[HttpGet]
+public ActionResult Choosebranch()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_Choosingview_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.Choosingview(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L538">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_Choosingview_" data-uid="CRS.Controllers.ReftController.Choosingview*"></a>
+  <h4 id="CRS_Controllers_ReftController_Choosingview_System_String_" data-uid="CRS.Controllers.ReftController.Choosingview(System.String)">Choosingview(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Choosingview(string compan)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">compan</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_ContractmanhoursubReft_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.ContractmanhoursubReft(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L1547">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_ContractmanhoursubReft_" data-uid="CRS.Controllers.ReftController.ContractmanhoursubReft*"></a>
+  <h4 id="CRS_Controllers_ReftController_ContractmanhoursubReft_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.ReftController.ContractmanhoursubReft(System.DateTime,System.DateTime)">ContractmanhoursubReft(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ValidateAntiForgeryToken]
+public ActionResult ContractmanhoursubReft(DateTime Firstdate, DateTime Seconddate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">Firstdate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">Seconddate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L65">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_Dispose_" data-uid="CRS.Controllers.ReftController.Dispose*"></a>
+  <h4 id="CRS_Controllers_ReftController_Dispose_System_Boolean_" data-uid="CRS.Controllers.ReftController.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">disposing</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Mvc.Controller.Dispose(System.Boolean)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_ExportnumberReft.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.ExportnumberReft%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L1011">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_ExportnumberReft_" data-uid="CRS.Controllers.ReftController.ExportnumberReft*"></a>
+  <h4 id="CRS_Controllers_ReftController_ExportnumberReft" data-uid="CRS.Controllers.ReftController.ExportnumberReft">ExportnumberReft()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult ExportnumberReft()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_ExportReft.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.ExportReft%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L979">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_ExportReft_" data-uid="CRS.Controllers.ReftController.ExportReft*"></a>
+  <h4 id="CRS_Controllers_ReftController_ExportReft" data-uid="CRS.Controllers.ReftController.ExportReft">ExportReft()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OutputCache(Duration = 30, Location = OutputCacheLocation.Downstream)]
+public ActionResult ExportReft()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_ExportReft_System_String_System_String_System_Nullable_System_DateTime__.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.ExportReft(System.String%2CSystem.String%2CSystem.Nullable%7BSystem.DateTime%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L550">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_ExportReft_" data-uid="CRS.Controllers.ReftController.ExportReft*"></a>
+  <h4 id="CRS_Controllers_ReftController_ExportReft_System_String_System_String_System_Nullable_System_DateTime__" data-uid="CRS.Controllers.ReftController.ExportReft(System.String,System.String,System.Nullable{System.DateTime})">ExportReft(String, String, Nullable&lt;DateTime&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpPost]
+[ValidateAntiForgeryToken]
+public ActionResult ExportReft(string format, string dept, DateTime? date)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">format</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">dept</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">date</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_GetACTIVITY.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.GetACTIVITY%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L2176">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_GetACTIVITY_" data-uid="CRS.Controllers.ReftController.GetACTIVITY*"></a>
+  <h4 id="CRS_Controllers_ReftController_GetACTIVITY" data-uid="CRS.Controllers.ReftController.GetACTIVITY">GetACTIVITY()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult GetACTIVITY()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_GetACTIVITYApprove.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.GetACTIVITYApprove%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L2488">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_GetACTIVITYApprove_" data-uid="CRS.Controllers.ReftController.GetACTIVITYApprove*"></a>
+  <h4 id="CRS_Controllers_ReftController_GetACTIVITYApprove" data-uid="CRS.Controllers.ReftController.GetACTIVITYApprove">GetACTIVITYApprove()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult GetACTIVITYApprove()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_GetACTIVITYNotApprove.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.GetACTIVITYNotApprove%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L2374">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_GetACTIVITYNotApprove_" data-uid="CRS.Controllers.ReftController.GetACTIVITYNotApprove*"></a>
+  <h4 id="CRS_Controllers_ReftController_GetACTIVITYNotApprove" data-uid="CRS.Controllers.ReftController.GetACTIVITYNotApprove">GetACTIVITYNotApprove()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult GetACTIVITYNotApprove()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_Getemployee_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.Getemployee(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L1691">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_Getemployee_" data-uid="CRS.Controllers.ReftController.Getemployee*"></a>
+  <h4 id="CRS_Controllers_ReftController_Getemployee_System_String_" data-uid="CRS.Controllers.ReftController.Getemployee(System.String)">Getemployee(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Getemployee(string countryId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">countryId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_GetOTHER_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.GetOTHER(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L2756">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_GetOTHER_" data-uid="CRS.Controllers.ReftController.GetOTHER*"></a>
+  <h4 id="CRS_Controllers_ReftController_GetOTHER_System_String_" data-uid="CRS.Controllers.ReftController.GetOTHER(System.String)">GetOTHER(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AcceptVerbs(HttpVerbs.Get)]
+public ActionResult GetOTHER(string activid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">activid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_GetROP_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.GetROP(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L2709">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_GetROP_" data-uid="CRS.Controllers.ReftController.GetROP*"></a>
+  <h4 id="CRS_Controllers_ReftController_GetROP_System_String_" data-uid="CRS.Controllers.ReftController.GetROP(System.String)">GetROP(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AcceptVerbs(HttpVerbs.Get)]
+public ActionResult GetROP(string activid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">activid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_GetSHIFT_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.GetSHIFT(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L2725">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_GetSHIFT_" data-uid="CRS.Controllers.ReftController.GetSHIFT*"></a>
+  <h4 id="CRS_Controllers_ReftController_GetSHIFT_System_String_" data-uid="CRS.Controllers.ReftController.GetSHIFT(System.String)">GetSHIFT(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AcceptVerbs(HttpVerbs.Get)]
+public ActionResult GetSHIFT(string activid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">activid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_GetSUB_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.GetSUB(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L2740">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_GetSUB_" data-uid="CRS.Controllers.ReftController.GetSUB*"></a>
+  <h4 id="CRS_Controllers_ReftController_GetSUB_System_String_" data-uid="CRS.Controllers.ReftController.GetSUB(System.String)">GetSUB(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AcceptVerbs(HttpVerbs.Get)]
+public ActionResult GetSUB(string activid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">activid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_GetSUBORGSelectList.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.GetSUBORGSelectList%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L1672">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_GetSUBORGSelectList_" data-uid="CRS.Controllers.ReftController.GetSUBORGSelectList*"></a>
+  <h4 id="CRS_Controllers_ReftController_GetSUBORGSelectList" data-uid="CRS.Controllers.ReftController.GetSUBORGSelectList">GetSUBORGSelectList()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ValidateAntiForgeryToken]
+[HttpPost]
+public SelectList GetSUBORGSelectList()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.SelectList</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_Index.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.Index%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L509">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_Index_" data-uid="CRS.Controllers.ReftController.Index*"></a>
+  <h4 id="CRS_Controllers_ReftController_Index" data-uid="CRS.Controllers.ReftController.Index">Index()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Index()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_IndexApprove.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.IndexApprove%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L2639">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_IndexApprove_" data-uid="CRS.Controllers.ReftController.IndexApprove*"></a>
+  <h4 id="CRS_Controllers_ReftController_IndexApprove" data-uid="CRS.Controllers.ReftController.IndexApprove">IndexApprove()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult IndexApprove()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_IndexNotApprove.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.IndexNotApprove%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L2645">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_IndexNotApprove_" data-uid="CRS.Controllers.ReftController.IndexNotApprove*"></a>
+  <h4 id="CRS_Controllers_ReftController_IndexNotApprove" data-uid="CRS.Controllers.ReftController.IndexNotApprove">IndexNotApprove()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult IndexNotApprove()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_IndexNotProven.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.IndexNotProven%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L2613">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_IndexNotProven_" data-uid="CRS.Controllers.ReftController.IndexNotProven*"></a>
+  <h4 id="CRS_Controllers_ReftController_IndexNotProven" data-uid="CRS.Controllers.ReftController.IndexNotProven">IndexNotProven()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult IndexNotProven()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_IndexReft.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.IndexReft%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L500">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_IndexReft_" data-uid="CRS.Controllers.ReftController.IndexReft*"></a>
+  <h4 id="CRS_Controllers_ReftController_IndexReft" data-uid="CRS.Controllers.ReftController.IndexReft">IndexReft()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OutputCache(Duration = 30, Location = OutputCacheLocation.Downstream)]
+public ActionResult IndexReft()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_IndexSoglasReft.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.IndexSoglasReft%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L2653">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_IndexSoglasReft_" data-uid="CRS.Controllers.ReftController.IndexSoglasReft*"></a>
+  <h4 id="CRS_Controllers_ReftController_IndexSoglasReft" data-uid="CRS.Controllers.ReftController.IndexSoglasReft">IndexSoglasReft()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult IndexSoglasReft()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_IndexsubReft.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.IndexsubReft%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L1536">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_IndexsubReft_" data-uid="CRS.Controllers.ReftController.IndexsubReft*"></a>
+  <h4 id="CRS_Controllers_ReftController_IndexsubReft" data-uid="CRS.Controllers.ReftController.IndexsubReft">IndexsubReft()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult IndexsubReft()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_InformationReft_System_DateTime_System_DateTime_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.InformationReft(System.DateTime%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L1072">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_InformationReft_" data-uid="CRS.Controllers.ReftController.InformationReft*"></a>
+  <h4 id="CRS_Controllers_ReftController_InformationReft_System_DateTime_System_DateTime_" data-uid="CRS.Controllers.ReftController.InformationReft(System.DateTime,System.DateTime)">InformationReft(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ValidateAntiForgeryToken]
+public ActionResult InformationReft(DateTime date1, DateTime date2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_Obnul.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.Obnul%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L2858">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_Obnul_" data-uid="CRS.Controllers.ReftController.Obnul*"></a>
+  <h4 id="CRS_Controllers_ReftController_Obnul" data-uid="CRS.Controllers.ReftController.Obnul">Obnul()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Obnul()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_PRAVCOPIR.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.PRAVCOPIR%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L3320">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_PRAVCOPIR_" data-uid="CRS.Controllers.ReftController.PRAVCOPIR*"></a>
+  <h4 id="CRS_Controllers_ReftController_PRAVCOPIR" data-uid="CRS.Controllers.ReftController.PRAVCOPIR">PRAVCOPIR()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult PRAVCOPIR()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_PRAVKA.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.PRAVKA%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L3291">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_PRAVKA_" data-uid="CRS.Controllers.ReftController.PRAVKA*"></a>
+  <h4 id="CRS_Controllers_ReftController_PRAVKA" data-uid="CRS.Controllers.ReftController.PRAVKA">PRAVKA()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult PRAVKA()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_ReftDepart_System_String_System_Nullable_System_DateTime__System_Nullable_System_DateTime__.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.ReftDepart(System.String%2CSystem.Nullable%7BSystem.DateTime%7D%2CSystem.Nullable%7BSystem.DateTime%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L1707">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_ReftDepart_" data-uid="CRS.Controllers.ReftController.ReftDepart*"></a>
+  <h4 id="CRS_Controllers_ReftController_ReftDepart_System_String_System_Nullable_System_DateTime__System_Nullable_System_DateTime__" data-uid="CRS.Controllers.ReftController.ReftDepart(System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime})">ReftDepart(String, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ValidateAntiForgeryToken]
+public ActionResult ReftDepart(string Depart, DateTime? ndate1, DateTime? ndate2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Depart</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">ndate1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">ndate2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_ReftDepart1_System_String_System_Nullable_System_DateTime__System_Nullable_System_DateTime__.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.ReftDepart1(System.String%2CSystem.Nullable%7BSystem.DateTime%7D%2CSystem.Nullable%7BSystem.DateTime%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L3107">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_ReftDepart1_" data-uid="CRS.Controllers.ReftController.ReftDepart1*"></a>
+  <h4 id="CRS_Controllers_ReftController_ReftDepart1_System_String_System_Nullable_System_DateTime__System_Nullable_System_DateTime__" data-uid="CRS.Controllers.ReftController.ReftDepart1(System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime})">ReftDepart1(String, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult ReftDepart1(string Depart, DateTime? ndate1, DateTime? ndate2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Depart</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">ndate1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">ndate2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_ReportAllDepartReft_System_Nullable_System_DateTime__System_Nullable_System_DateTime__.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.ReportAllDepartReft(System.Nullable%7BSystem.DateTime%7D%2CSystem.Nullable%7BSystem.DateTime%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L1890">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_ReportAllDepartReft_" data-uid="CRS.Controllers.ReftController.ReportAllDepartReft*"></a>
+  <h4 id="CRS_Controllers_ReftController_ReportAllDepartReft_System_Nullable_System_DateTime__System_Nullable_System_DateTime__" data-uid="CRS.Controllers.ReftController.ReportAllDepartReft(System.Nullable{System.DateTime},System.Nullable{System.DateTime})">ReportAllDepartReft(Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ValidateAntiForgeryToken]
+public ActionResult ReportAllDepartReft(DateTime? ndate1, DateTime? ndate2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">ndate1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">ndate2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_ReportAllDept.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.ReportAllDept%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L1040">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_ReportAllDept_" data-uid="CRS.Controllers.ReftController.ReportAllDept*"></a>
+  <h4 id="CRS_Controllers_ReftController_ReportAllDept" data-uid="CRS.Controllers.ReftController.ReportAllDept">ReportAllDept()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet]
+public ActionResult ReportAllDept()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_ReportEmpl.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.ReportEmpl%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L1657">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_ReportEmpl_" data-uid="CRS.Controllers.ReftController.ReportEmpl*"></a>
+  <h4 id="CRS_Controllers_ReftController_ReportEmpl" data-uid="CRS.Controllers.ReftController.ReportEmpl">ReportEmpl()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet]
+public ActionResult ReportEmpl()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_SaveComment_System_Guid_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.SaveComment(System.Guid%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L2624">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_SaveComment_" data-uid="CRS.Controllers.ReftController.SaveComment*"></a>
+  <h4 id="CRS_Controllers_ReftController_SaveComment_System_Guid_System_String_" data-uid="CRS.Controllers.ReftController.SaveComment(System.Guid,System.String)">SaveComment(Guid, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpPost]
+public ActionResult SaveComment(Guid activid, string commentar)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">activid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">commentar</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_SetCulture_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.SetCulture(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L76">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_SetCulture_" data-uid="CRS.Controllers.ReftController.SetCulture*"></a>
+  <h4 id="CRS_Controllers_ReftController_SetCulture_System_String_" data-uid="CRS.Controllers.ReftController.SetCulture(System.String)">SetCulture(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult SetCulture(string culture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_SetCulture5_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.SetCulture5(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L367">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_SetCulture5_" data-uid="CRS.Controllers.ReftController.SetCulture5*"></a>
+  <h4 id="CRS_Controllers_ReftController_SetCulture5_System_String_" data-uid="CRS.Controllers.ReftController.SetCulture5(System.String)">SetCulture5(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult SetCulture5(string culture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_SetCulture6_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.SetCulture6(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L389">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_SetCulture6_" data-uid="CRS.Controllers.ReftController.SetCulture6*"></a>
+  <h4 id="CRS_Controllers_ReftController_SetCulture6_System_String_" data-uid="CRS.Controllers.ReftController.SetCulture6(System.String)">SetCulture6(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult SetCulture6(string culture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_SetCulture6block_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.SetCulture6block(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L2791">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_SetCulture6block_" data-uid="CRS.Controllers.ReftController.SetCulture6block*"></a>
+  <h4 id="CRS_Controllers_ReftController_SetCulture6block_System_String_" data-uid="CRS.Controllers.ReftController.SetCulture6block(System.String)">SetCulture6block(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult SetCulture6block(string culture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_SetCultureApprove_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.SetCultureApprove(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L256">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_SetCultureApprove_" data-uid="CRS.Controllers.ReftController.SetCultureApprove*"></a>
+  <h4 id="CRS_Controllers_ReftController_SetCultureApprove_System_String_" data-uid="CRS.Controllers.ReftController.SetCultureApprove(System.String)">SetCultureApprove(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult SetCultureApprove(string culture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_SetCultureblock_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.SetCultureblock(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L411">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_SetCultureblock_" data-uid="CRS.Controllers.ReftController.SetCultureblock*"></a>
+  <h4 id="CRS_Controllers_ReftController_SetCultureblock_System_String_" data-uid="CRS.Controllers.ReftController.SetCultureblock(System.String)">SetCultureblock(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult SetCultureblock(string culture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_SetCultureBranch_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.SetCultureBranch(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L344">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_SetCultureBranch_" data-uid="CRS.Controllers.ReftController.SetCultureBranch*"></a>
+  <h4 id="CRS_Controllers_ReftController_SetCultureBranch_System_String_" data-uid="CRS.Controllers.ReftController.SetCultureBranch(System.String)">SetCultureBranch(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult SetCultureBranch(string culture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_SetCultureForAssistantReft_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.SetCultureForAssistantReft(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L142">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_SetCultureForAssistantReft_" data-uid="CRS.Controllers.ReftController.SetCultureForAssistantReft*"></a>
+  <h4 id="CRS_Controllers_ReftController_SetCultureForAssistantReft_System_String_" data-uid="CRS.Controllers.ReftController.SetCultureForAssistantReft(System.String)">SetCultureForAssistantReft(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult SetCultureForAssistantReft(string culture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_SetCultureGroup_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.SetCultureGroup(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L456">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_SetCultureGroup_" data-uid="CRS.Controllers.ReftController.SetCultureGroup*"></a>
+  <h4 id="CRS_Controllers_ReftController_SetCultureGroup_System_String_" data-uid="CRS.Controllers.ReftController.SetCultureGroup(System.String)">SetCultureGroup(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult SetCultureGroup(string culture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_SetCultureIndexSoglas_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.SetCultureIndexSoglas(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L322">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_SetCultureIndexSoglas_" data-uid="CRS.Controllers.ReftController.SetCultureIndexSoglas*"></a>
+  <h4 id="CRS_Controllers_ReftController_SetCultureIndexSoglas_System_String_" data-uid="CRS.Controllers.ReftController.SetCultureIndexSoglas(System.String)">SetCultureIndexSoglas(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult SetCultureIndexSoglas(string culture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_SetCultureNotApprove_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.SetCultureNotApprove(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L280">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_SetCultureNotApprove_" data-uid="CRS.Controllers.ReftController.SetCultureNotApprove*"></a>
+  <h4 id="CRS_Controllers_ReftController_SetCultureNotApprove_System_String_" data-uid="CRS.Controllers.ReftController.SetCultureNotApprove(System.String)">SetCultureNotApprove(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult SetCultureNotApprove(string culture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_SetCultureNotProven_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.SetCultureNotProven(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L301">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_SetCultureNotProven_" data-uid="CRS.Controllers.ReftController.SetCultureNotProven*"></a>
+  <h4 id="CRS_Controllers_ReftController_SetCultureNotProven_System_String_" data-uid="CRS.Controllers.ReftController.SetCultureNotProven(System.String)">SetCultureNotProven(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult SetCultureNotProven(string culture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_SetCulturenumber_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.SetCulturenumber(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L434">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_SetCulturenumber_" data-uid="CRS.Controllers.ReftController.SetCulturenumber*"></a>
+  <h4 id="CRS_Controllers_ReftController_SetCulturenumber_System_String_" data-uid="CRS.Controllers.ReftController.SetCulturenumber(System.String)">SetCulturenumber(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult SetCulturenumber(string culture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_SetCulturenumberall_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.SetCulturenumberall(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L478">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_SetCulturenumberall_" data-uid="CRS.Controllers.ReftController.SetCulturenumberall*"></a>
+  <h4 id="CRS_Controllers_ReftController_SetCulturenumberall_System_String_" data-uid="CRS.Controllers.ReftController.SetCulturenumberall(System.String)">SetCulturenumberall(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult SetCulturenumberall(string culture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_SetCultureROP_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.SetCultureROP(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L98">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_SetCultureROP_" data-uid="CRS.Controllers.ReftController.SetCultureROP*"></a>
+  <h4 id="CRS_Controllers_ReftController_SetCultureROP_System_String_" data-uid="CRS.Controllers.ReftController.SetCultureROP(System.String)">SetCultureROP(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult SetCultureROP(string culture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_SetCultureStatforcontract_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.SetCultureStatforcontract(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L211">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_SetCultureStatforcontract_" data-uid="CRS.Controllers.ReftController.SetCultureStatforcontract*"></a>
+  <h4 id="CRS_Controllers_ReftController_SetCultureStatforcontract_System_String_" data-uid="CRS.Controllers.ReftController.SetCultureStatforcontract(System.String)">SetCultureStatforcontract(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult SetCultureStatforcontract(string culture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_SetCultureStatjobtype_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.SetCultureStatjobtype(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L233">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_SetCultureStatjobtype_" data-uid="CRS.Controllers.ReftController.SetCultureStatjobtype*"></a>
+  <h4 id="CRS_Controllers_ReftController_SetCultureStatjobtype_System_String_" data-uid="CRS.Controllers.ReftController.SetCultureStatjobtype(System.String)">SetCultureStatjobtype(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult SetCultureStatjobtype(string culture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_SetCulturesubReft_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.SetCulturesubReft(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L120">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_SetCulturesubReft_" data-uid="CRS.Controllers.ReftController.SetCulturesubReft*"></a>
+  <h4 id="CRS_Controllers_ReftController_SetCulturesubReft_System_String_" data-uid="CRS.Controllers.ReftController.SetCulturesubReft(System.String)">SetCulturesubReft(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult SetCulturesubReft(string culture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_SetCultureTotalReft_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.SetCultureTotalReft(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L166">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_SetCultureTotalReft_" data-uid="CRS.Controllers.ReftController.SetCultureTotalReft*"></a>
+  <h4 id="CRS_Controllers_ReftController_SetCultureTotalReft_System_String_" data-uid="CRS.Controllers.ReftController.SetCultureTotalReft(System.String)">SetCultureTotalReft(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult SetCultureTotalReft(string culture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_SetCultureUniversalReft_System_String_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.SetCultureUniversalReft(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L188">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_SetCultureUniversalReft_" data-uid="CRS.Controllers.ReftController.SetCultureUniversalReft*"></a>
+  <h4 id="CRS_Controllers_ReftController_SetCultureUniversalReft_System_String_" data-uid="CRS.Controllers.ReftController.SetCultureUniversalReft(System.String)">SetCultureUniversalReft(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult SetCultureUniversalReft(string culture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_Soglaspoumolch.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.Soglaspoumolch%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L2812">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_Soglaspoumolch_" data-uid="CRS.Controllers.ReftController.Soglaspoumolch*"></a>
+  <h4 id="CRS_Controllers_ReftController_Soglaspoumolch" data-uid="CRS.Controllers.ReftController.Soglaspoumolch">Soglaspoumolch()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Soglaspoumolch()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_Soglaspoumolchnar.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.Soglaspoumolchnar%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L2834">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_Soglaspoumolchnar_" data-uid="CRS.Controllers.ReftController.Soglaspoumolchnar*"></a>
+  <h4 id="CRS_Controllers_ReftController_Soglaspoumolchnar" data-uid="CRS.Controllers.ReftController.Soglaspoumolchnar">Soglaspoumolchnar()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult Soglaspoumolchnar()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_TotalreportReft.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.TotalreportReft%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L1064">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_TotalreportReft_" data-uid="CRS.Controllers.ReftController.TotalreportReft*"></a>
+  <h4 id="CRS_Controllers_ReftController_TotalreportReft" data-uid="CRS.Controllers.ReftController.TotalreportReft">TotalreportReft()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult TotalreportReft()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_UniversalReft.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.UniversalReft%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L2116">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_UniversalReft_" data-uid="CRS.Controllers.ReftController.UniversalReft*"></a>
+  <h4 id="CRS_Controllers_ReftController_UniversalReft" data-uid="CRS.Controllers.ReftController.UniversalReft">UniversalReft()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult UniversalReft()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_UniversalReport_System_String_System_String_System_String_System_String_System_String_System_Nullable_System_DateTime__System_Nullable_System_DateTime__.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.UniversalReport(System.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.Nullable%7BSystem.DateTime%7D%2CSystem.Nullable%7BSystem.DateTime%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L2881">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_UniversalReport_" data-uid="CRS.Controllers.ReftController.UniversalReport*"></a>
+  <h4 id="CRS_Controllers_ReftController_UniversalReport_System_String_System_String_System_String_System_String_System_String_System_Nullable_System_DateTime__System_Nullable_System_DateTime__" data-uid="CRS.Controllers.ReftController.UniversalReport(System.String,System.String,System.String,System.String,System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime})">UniversalReport(String, String, String, String, String, Nullable&lt;DateTime&gt;, Nullable&lt;DateTime&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ValidateAntiForgeryToken]
+public ActionResult UniversalReport(string Assistant, string Service, string Group, string Master, string Unit, DateTime? ndate1, DateTime? ndate2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Assistant</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Service</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Group</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Master</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Unit</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">ndate1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">ndate2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_UpdateACTIVITY_System_Guid_System_Boolean_.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.UpdateACTIVITY(System.Guid%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L2661">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_UpdateACTIVITY_" data-uid="CRS.Controllers.ReftController.UpdateACTIVITY*"></a>
+  <h4 id="CRS_Controllers_ReftController_UpdateACTIVITY_System_Guid_System_Boolean_" data-uid="CRS.Controllers.ReftController.UpdateACTIVITY(System.Guid,System.Boolean)">UpdateACTIVITY(Guid, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult UpdateACTIVITY(Guid ACTIVITYID, bool SOGLASOVAN)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">ACTIVITYID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">SOGLASOVAN</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_VigruzReft.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.VigruzReft%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L2095">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_VigruzReft_" data-uid="CRS.Controllers.ReftController.VigruzReft*"></a>
+  <h4 id="CRS_Controllers_ReftController_VigruzReft" data-uid="CRS.Controllers.ReftController.VigruzReft">VigruzReft()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionResult VigruzReft()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_Vygruzka.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.Vygruzka%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L1030">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_Vygruzka_" data-uid="CRS.Controllers.ReftController.Vygruzka*"></a>
+  <h4 id="CRS_Controllers_ReftController_Vygruzka" data-uid="CRS.Controllers.ReftController.Vygruzka">Vygruzka()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet]
+public ActionResult Vygruzka()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_Vygruzkablock.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.Vygruzkablock%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L2772">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_Vygruzkablock_" data-uid="CRS.Controllers.ReftController.Vygruzkablock*"></a>
+  <h4 id="CRS_Controllers_ReftController_Vygruzkablock" data-uid="CRS.Controllers.ReftController.Vygruzkablock">Vygruzkablock()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet]
+public ActionResult Vygruzkablock()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_Vygruzrasst.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.Vygruzrasst%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L1049">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_Vygruzrasst_" data-uid="CRS.Controllers.ReftController.Vygruzrasst*"></a>
+  <h4 id="CRS_Controllers_ReftController_Vygruzrasst" data-uid="CRS.Controllers.ReftController.Vygruzrasst">Vygruzrasst()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpPost]
+public ActionResult Vygruzrasst()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController_Vygruzrasstblock.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController.Vygruzrasstblock%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L2781">View Source</a>
+  </span>
+  <a id="CRS_Controllers_ReftController_Vygruzrasstblock_" data-uid="CRS.Controllers.ReftController.Vygruzrasstblock*"></a>
+  <h4 id="CRS_Controllers_ReftController_Vygruzrasstblock" data-uid="CRS.Controllers.ReftController.Vygruzrasstblock">Vygruzrasstblock()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpPost]
+public ActionResult Vygruzrasstblock()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Mvc.ActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.Web.Mvc.IActionFilter</span>
+  </div>
+  <div>
+      <span class="xref">System.Web.Mvc.IAuthorizationFilter</span>
+  </div>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <div>
+      <span class="xref">System.Web.Mvc.IExceptionFilter</span>
+  </div>
+  <div>
+      <span class="xref">System.Web.Mvc.IResultFilter</span>
+  </div>
+  <div>
+      <span class="xref">System.Web.Mvc.Async.IAsyncController</span>
+  </div>
+  <div>
+      <span class="xref">System.Web.Mvc.IController</span>
+  </div>
+  <div>
+      <span class="xref">System.Web.Mvc.Async.IAsyncManagerContainer</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Controllers_ReftController.md&amp;value=---%0Auid%3A%20CRS.Controllers.ReftController%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Controllers/ReftController.cs/#L16" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
