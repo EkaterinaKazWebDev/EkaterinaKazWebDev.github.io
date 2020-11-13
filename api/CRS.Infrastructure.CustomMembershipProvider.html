@@ -1,0 +1,1466 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CustomMembershipProvider
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CustomMembershipProvider
+   ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CRS.Infrastructure.CustomMembershipProvider">
+  
+  
+  <h1 id="CRS_Infrastructure_CustomMembershipProvider" data-uid="CRS.Infrastructure.CustomMembershipProvider" class="text-break">Class CustomMembershipProvider
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">System.Configuration.Provider.ProviderBase</span></div>
+    <div class="level2"><span class="xref">System.Web.Security.MembershipProvider</span></div>
+    <div class="level3"><span class="xref">CustomMembershipProvider</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Web.Security.MembershipProvider.EncryptPassword(System.Byte[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Security.MembershipProvider.EncryptPassword(System.Byte[], System.Web.Configuration.MembershipPasswordCompatibilityMode)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Security.MembershipProvider.DecryptPassword(System.Byte[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Security.MembershipProvider.OnValidatingPassword(System.Web.Security.ValidatePasswordEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">System.Web.Security.MembershipProvider.ValidatingPassword</span>
+    </div>
+    <div>
+      <span class="xref">System.Configuration.Provider.ProviderBase.Initialize(System.String, System.Collections.Specialized.NameValueCollection)</span>
+    </div>
+    <div>
+      <span class="xref">System.Configuration.Provider.ProviderBase.Name</span>
+    </div>
+    <div>
+      <span class="xref">System.Configuration.Provider.ProviderBase.Description</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CRS.Infrastructure.html">CRS.Infrastructure</a></h6>
+  <h6><strong>Assembly</strong>: Union.dll</h6>
+  <h5 id="CRS_Infrastructure_CustomMembershipProvider_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CustomMembershipProvider : MembershipProvider</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_ApplicationName.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.ApplicationName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L13">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_ApplicationName_" data-uid="CRS.Infrastructure.CustomMembershipProvider.ApplicationName*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_ApplicationName" data-uid="CRS.Infrastructure.CustomMembershipProvider.ApplicationName">ApplicationName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ApplicationName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Security.MembershipProvider.ApplicationName</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_EnablePasswordReset.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.EnablePasswordReset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L75">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_EnablePasswordReset_" data-uid="CRS.Infrastructure.CustomMembershipProvider.EnablePasswordReset*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_EnablePasswordReset" data-uid="CRS.Infrastructure.CustomMembershipProvider.EnablePasswordReset">EnablePasswordReset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool EnablePasswordReset { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Security.MembershipProvider.EnablePasswordReset</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_EnablePasswordRetrieval.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.EnablePasswordRetrieval%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L80">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_EnablePasswordRetrieval_" data-uid="CRS.Infrastructure.CustomMembershipProvider.EnablePasswordRetrieval*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_EnablePasswordRetrieval" data-uid="CRS.Infrastructure.CustomMembershipProvider.EnablePasswordRetrieval">EnablePasswordRetrieval</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool EnablePasswordRetrieval { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Security.MembershipProvider.EnablePasswordRetrieval</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_MaxInvalidPasswordAttempts.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.MaxInvalidPasswordAttempts%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L137">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_MaxInvalidPasswordAttempts_" data-uid="CRS.Infrastructure.CustomMembershipProvider.MaxInvalidPasswordAttempts*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_MaxInvalidPasswordAttempts" data-uid="CRS.Infrastructure.CustomMembershipProvider.MaxInvalidPasswordAttempts">MaxInvalidPasswordAttempts</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int MaxInvalidPasswordAttempts { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Security.MembershipProvider.MaxInvalidPasswordAttempts</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_MinRequiredNonAlphanumericCharacters.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.MinRequiredNonAlphanumericCharacters%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L142">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_MinRequiredNonAlphanumericCharacters_" data-uid="CRS.Infrastructure.CustomMembershipProvider.MinRequiredNonAlphanumericCharacters*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_MinRequiredNonAlphanumericCharacters" data-uid="CRS.Infrastructure.CustomMembershipProvider.MinRequiredNonAlphanumericCharacters">MinRequiredNonAlphanumericCharacters</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int MinRequiredNonAlphanumericCharacters { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Security.MembershipProvider.MinRequiredNonAlphanumericCharacters</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_MinRequiredPasswordLength.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.MinRequiredPasswordLength%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L147">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_MinRequiredPasswordLength_" data-uid="CRS.Infrastructure.CustomMembershipProvider.MinRequiredPasswordLength*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_MinRequiredPasswordLength" data-uid="CRS.Infrastructure.CustomMembershipProvider.MinRequiredPasswordLength">MinRequiredPasswordLength</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int MinRequiredPasswordLength { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Security.MembershipProvider.MinRequiredPasswordLength</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_PasswordAttemptWindow.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.PasswordAttemptWindow%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L152">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_PasswordAttemptWindow_" data-uid="CRS.Infrastructure.CustomMembershipProvider.PasswordAttemptWindow*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_PasswordAttemptWindow" data-uid="CRS.Infrastructure.CustomMembershipProvider.PasswordAttemptWindow">PasswordAttemptWindow</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int PasswordAttemptWindow { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Security.MembershipProvider.PasswordAttemptWindow</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_PasswordFormat.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.PasswordFormat%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L157">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_PasswordFormat_" data-uid="CRS.Infrastructure.CustomMembershipProvider.PasswordFormat*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_PasswordFormat" data-uid="CRS.Infrastructure.CustomMembershipProvider.PasswordFormat">PasswordFormat</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override MembershipPasswordFormat PasswordFormat { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Security.MembershipPasswordFormat</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Security.MembershipProvider.PasswordFormat</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_PasswordStrengthRegularExpression.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.PasswordStrengthRegularExpression%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L162">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_PasswordStrengthRegularExpression_" data-uid="CRS.Infrastructure.CustomMembershipProvider.PasswordStrengthRegularExpression*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_PasswordStrengthRegularExpression" data-uid="CRS.Infrastructure.CustomMembershipProvider.PasswordStrengthRegularExpression">PasswordStrengthRegularExpression</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string PasswordStrengthRegularExpression { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Security.MembershipProvider.PasswordStrengthRegularExpression</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_RequiresQuestionAndAnswer.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.RequiresQuestionAndAnswer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L167">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_RequiresQuestionAndAnswer_" data-uid="CRS.Infrastructure.CustomMembershipProvider.RequiresQuestionAndAnswer*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_RequiresQuestionAndAnswer" data-uid="CRS.Infrastructure.CustomMembershipProvider.RequiresQuestionAndAnswer">RequiresQuestionAndAnswer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool RequiresQuestionAndAnswer { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Security.MembershipProvider.RequiresQuestionAndAnswer</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_RequiresUniqueEmail.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.RequiresUniqueEmail%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L172">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_RequiresUniqueEmail_" data-uid="CRS.Infrastructure.CustomMembershipProvider.RequiresUniqueEmail*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_RequiresUniqueEmail" data-uid="CRS.Infrastructure.CustomMembershipProvider.RequiresUniqueEmail">RequiresUniqueEmail</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool RequiresUniqueEmail { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Security.MembershipProvider.RequiresUniqueEmail</span></div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_ChangePassword_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.ChangePassword(System.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L25">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_ChangePassword_" data-uid="CRS.Infrastructure.CustomMembershipProvider.ChangePassword*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_ChangePassword_System_String_System_String_System_String_" data-uid="CRS.Infrastructure.CustomMembershipProvider.ChangePassword(System.String,System.String,System.String)">ChangePassword(String, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool ChangePassword(string username, string oldPassword, string newPassword)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">username</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">oldPassword</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">newPassword</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Security.MembershipProvider.ChangePassword(System.String, System.String, System.String)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_ChangePasswordQuestionAndAnswer_System_String_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.ChangePasswordQuestionAndAnswer(System.String%2CSystem.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L30">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_ChangePasswordQuestionAndAnswer_" data-uid="CRS.Infrastructure.CustomMembershipProvider.ChangePasswordQuestionAndAnswer*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_ChangePasswordQuestionAndAnswer_System_String_System_String_System_String_System_String_" data-uid="CRS.Infrastructure.CustomMembershipProvider.ChangePasswordQuestionAndAnswer(System.String,System.String,System.String,System.String)">ChangePasswordQuestionAndAnswer(String, String, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool ChangePasswordQuestionAndAnswer(string username, string password, string newPasswordQuestion, string newPasswordAnswer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">username</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">password</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">newPasswordQuestion</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">newPasswordAnswer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Security.MembershipProvider.ChangePasswordQuestionAndAnswer(System.String, System.String, System.String, System.String)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_CreateUser_System_String_System_String_System_String_System_String_System_String_System_Boolean_System_Object_System_Web_Security_MembershipCreateStatus__.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.CreateUser(System.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.Boolean%2CSystem.Object%2CSystem.Web.Security.MembershipCreateStatus%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L37">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_CreateUser_" data-uid="CRS.Infrastructure.CustomMembershipProvider.CreateUser*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_CreateUser_System_String_System_String_System_String_System_String_System_String_System_Boolean_System_Object_System_Web_Security_MembershipCreateStatus__" data-uid="CRS.Infrastructure.CustomMembershipProvider.CreateUser(System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Object,System.Web.Security.MembershipCreateStatus@)">CreateUser(String, String, String, String, String, Boolean, Object, out MembershipCreateStatus)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override MembershipUser CreateUser(string username, string password, string empnumber, string role, string passwordAnswer, bool isApproved, object providerUserKey, out MembershipCreateStatus status)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">username</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">password</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">empnumber</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">role</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">passwordAnswer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isApproved</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">providerUserKey</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Web.Security.MembershipCreateStatus</span></td>
+        <td><span class="parametername">status</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Security.MembershipUser</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Security.MembershipProvider.CreateUser(System.String, System.String, System.String, System.String, System.String, System.Boolean, System.Object, System.Web.Security.MembershipCreateStatus)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_DeleteUser_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.DeleteUser(System.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L70">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_DeleteUser_" data-uid="CRS.Infrastructure.CustomMembershipProvider.DeleteUser*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_DeleteUser_System_String_System_Boolean_" data-uid="CRS.Infrastructure.CustomMembershipProvider.DeleteUser(System.String,System.Boolean)">DeleteUser(String, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool DeleteUser(string username, bool deleteAllRelatedData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">username</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">deleteAllRelatedData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Security.MembershipProvider.DeleteUser(System.String, System.Boolean)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_FindUsersByEmail_System_String_System_Int32_System_Int32_System_Int32__.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.FindUsersByEmail(System.String%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L85">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_FindUsersByEmail_" data-uid="CRS.Infrastructure.CustomMembershipProvider.FindUsersByEmail*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_FindUsersByEmail_System_String_System_Int32_System_Int32_System_Int32__" data-uid="CRS.Infrastructure.CustomMembershipProvider.FindUsersByEmail(System.String,System.Int32,System.Int32,System.Int32@)">FindUsersByEmail(String, Int32, Int32, out Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override MembershipUserCollection FindUsersByEmail(string emailToMatch, int pageIndex, int pageSize, out int totalRecords)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">emailToMatch</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pageIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pageSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">totalRecords</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Security.MembershipUserCollection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Security.MembershipProvider.FindUsersByEmail(System.String, System.Int32, System.Int32, System.Int32)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_FindUsersByName_System_String_System_Int32_System_Int32_System_Int32__.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.FindUsersByName(System.String%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L90">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_FindUsersByName_" data-uid="CRS.Infrastructure.CustomMembershipProvider.FindUsersByName*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_FindUsersByName_System_String_System_Int32_System_Int32_System_Int32__" data-uid="CRS.Infrastructure.CustomMembershipProvider.FindUsersByName(System.String,System.Int32,System.Int32,System.Int32@)">FindUsersByName(String, Int32, Int32, out Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override MembershipUserCollection FindUsersByName(string usernameToMatch, int pageIndex, int pageSize, out int totalRecords)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">usernameToMatch</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pageIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pageSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">totalRecords</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Security.MembershipUserCollection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Security.MembershipProvider.FindUsersByName(System.String, System.Int32, System.Int32, System.Int32)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_GetAllUsers_System_Int32_System_Int32_System_Int32__.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.GetAllUsers(System.Int32%2CSystem.Int32%2CSystem.Int32%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L95">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_GetAllUsers_" data-uid="CRS.Infrastructure.CustomMembershipProvider.GetAllUsers*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_GetAllUsers_System_Int32_System_Int32_System_Int32__" data-uid="CRS.Infrastructure.CustomMembershipProvider.GetAllUsers(System.Int32,System.Int32,System.Int32@)">GetAllUsers(Int32, Int32, out Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override MembershipUserCollection GetAllUsers(int pageIndex, int pageSize, out int totalRecords)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pageIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pageSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">totalRecords</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Security.MembershipUserCollection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Security.MembershipProvider.GetAllUsers(System.Int32, System.Int32, System.Int32)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_GetMd5Hash_System_String_.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.GetMd5Hash(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L203">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_GetMd5Hash_" data-uid="CRS.Infrastructure.CustomMembershipProvider.GetMd5Hash*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_GetMd5Hash_System_String_" data-uid="CRS.Infrastructure.CustomMembershipProvider.GetMd5Hash(System.String)">GetMd5Hash(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetMd5Hash(string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_GetNumberOfUsersOnline.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.GetNumberOfUsersOnline%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L100">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_GetNumberOfUsersOnline_" data-uid="CRS.Infrastructure.CustomMembershipProvider.GetNumberOfUsersOnline*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_GetNumberOfUsersOnline" data-uid="CRS.Infrastructure.CustomMembershipProvider.GetNumberOfUsersOnline">GetNumberOfUsersOnline()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetNumberOfUsersOnline()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Security.MembershipProvider.GetNumberOfUsersOnline()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_GetPassword_System_String_System_String_.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.GetPassword(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L105">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_GetPassword_" data-uid="CRS.Infrastructure.CustomMembershipProvider.GetPassword*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_GetPassword_System_String_System_String_" data-uid="CRS.Infrastructure.CustomMembershipProvider.GetPassword(System.String,System.String)">GetPassword(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string GetPassword(string username, string answer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">username</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">answer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Security.MembershipProvider.GetPassword(System.String, System.String)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_GetUser_System_Object_System_Boolean_.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.GetUser(System.Object%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L127">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_GetUser_" data-uid="CRS.Infrastructure.CustomMembershipProvider.GetUser*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_GetUser_System_Object_System_Boolean_" data-uid="CRS.Infrastructure.CustomMembershipProvider.GetUser(System.Object,System.Boolean)">GetUser(Object, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override MembershipUser GetUser(object providerUserKey, bool userIsOnline)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">providerUserKey</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">userIsOnline</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Security.MembershipUser</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Security.MembershipProvider.GetUser(System.Object, System.Boolean)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_GetUser_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.GetUser(System.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L110">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_GetUser_" data-uid="CRS.Infrastructure.CustomMembershipProvider.GetUser*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_GetUser_System_String_System_Boolean_" data-uid="CRS.Infrastructure.CustomMembershipProvider.GetUser(System.String,System.Boolean)">GetUser(String, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override MembershipUser GetUser(string username, bool userIsOnline)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">username</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">userIsOnline</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Security.MembershipUser</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Security.MembershipProvider.GetUser(System.String, System.Boolean)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_GetUserNameByEmail_System_String_.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.GetUserNameByEmail(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L132">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_GetUserNameByEmail_" data-uid="CRS.Infrastructure.CustomMembershipProvider.GetUserNameByEmail*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_GetUserNameByEmail_System_String_" data-uid="CRS.Infrastructure.CustomMembershipProvider.GetUserNameByEmail(System.String)">GetUserNameByEmail(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string GetUserNameByEmail(string email)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">email</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Security.MembershipProvider.GetUserNameByEmail(System.String)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_ResetPassword_System_String_System_String_.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.ResetPassword(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L177">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_ResetPassword_" data-uid="CRS.Infrastructure.CustomMembershipProvider.ResetPassword*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_ResetPassword_System_String_System_String_" data-uid="CRS.Infrastructure.CustomMembershipProvider.ResetPassword(System.String,System.String)">ResetPassword(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ResetPassword(string username, string answer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">username</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">answer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Security.MembershipProvider.ResetPassword(System.String, System.String)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_UnlockUser_System_String_.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.UnlockUser(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L182">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_UnlockUser_" data-uid="CRS.Infrastructure.CustomMembershipProvider.UnlockUser*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_UnlockUser_System_String_" data-uid="CRS.Infrastructure.CustomMembershipProvider.UnlockUser(System.String)">UnlockUser(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool UnlockUser(string userName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">userName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Security.MembershipProvider.UnlockUser(System.String)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_UpdateUser_System_Web_Security_MembershipUser_.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.UpdateUser(System.Web.Security.MembershipUser)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L187">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_UpdateUser_" data-uid="CRS.Infrastructure.CustomMembershipProvider.UpdateUser*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_UpdateUser_System_Web_Security_MembershipUser_" data-uid="CRS.Infrastructure.CustomMembershipProvider.UpdateUser(System.Web.Security.MembershipUser)">UpdateUser(MembershipUser)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void UpdateUser(MembershipUser user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Web.Security.MembershipUser</span></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Security.MembershipProvider.UpdateUser(System.Web.Security.MembershipUser)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider_ValidateUser_System_String_System_String_.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider.ValidateUser(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L192">View Source</a>
+  </span>
+  <a id="CRS_Infrastructure_CustomMembershipProvider_ValidateUser_" data-uid="CRS.Infrastructure.CustomMembershipProvider.ValidateUser*"></a>
+  <h4 id="CRS_Infrastructure_CustomMembershipProvider_ValidateUser_System_String_System_String_" data-uid="CRS.Infrastructure.CustomMembershipProvider.ValidateUser(System.String,System.String)">ValidateUser(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool ValidateUser(string username, string password)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">username</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">password</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Web.Security.MembershipProvider.ValidateUser(System.String, System.String)</span></div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Infrastructure_CustomMembershipProvider.md&amp;value=---%0Auid%3A%20CRS.Infrastructure.CustomMembershipProvider%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Infrastructure/CustomMembershipProvider.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

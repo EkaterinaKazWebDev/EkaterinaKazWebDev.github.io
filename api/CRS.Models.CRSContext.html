@@ -1,0 +1,1708 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CRSContext
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CRSContext
+   ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CRS.Models.CRSContext">
+  
+  
+  <h1 id="CRS_Models_CRSContext" data-uid="CRS.Models.CRSContext" class="text-break">Class CRSContext
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">System.Data.Entity.DbContext</span></div>
+    <div class="level2"><span class="xref">CRSContext</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+    <div><span class="xref">System.Data.Entity.Infrastructure.IObjectContextAdapter</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.OnModelCreating(System.Data.Entity.DbModelBuilder)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Set&lt;TEntity&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Set(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.SaveChanges()</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.SaveChangesAsync()</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.SaveChangesAsync(System.Threading.CancellationToken)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.GetValidationErrors()</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry, System.Collections.Generic.IDictionary&lt;System.Object, System.Object&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Entry&lt;TEntity&gt;(TEntity)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Entry(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Dispose(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Database</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.ObjectContext</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.ChangeTracker</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Configuration</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CRS.Models.html">CRS.Models</a></h6>
+  <h6><strong>Assembly</strong>: Union.dll</h6>
+  <h5 id="CRS_Models_CRSContext_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CRSContext : DbContext, IDisposable, IObjectContextAdapter</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext__ctor.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L15">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext__ctor_" data-uid="CRS.Models.CRSContext.#ctor*"></a>
+  <h4 id="CRS_Models_CRSContext__ctor" data-uid="CRS.Models.CRSContext.#ctor">CRSContext()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CRSContext()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_ACT.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.ACT%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L59">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_ACT_" data-uid="CRS.Models.CRSContext.ACT*"></a>
+  <h4 id="CRS_Models_CRSContext_ACT" data-uid="CRS.Models.CRSContext.ACT">ACT</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;ACT&gt; ACT { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.ACT.html">ACT</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_ACTIVITY.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.ACTIVITY%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L54">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_ACTIVITY_" data-uid="CRS.Models.CRSContext.ACTIVITY*"></a>
+  <h4 id="CRS_Models_CRSContext_ACTIVITY" data-uid="CRS.Models.CRSContext.ACTIVITY">ACTIVITY</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;ACTIVITY&gt; ACTIVITY { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.ACTIVITY.html">ACTIVITY</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_ASSISTANT.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.ASSISTANT%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L56">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_ASSISTANT_" data-uid="CRS.Models.CRSContext.ASSISTANT*"></a>
+  <h4 id="CRS_Models_CRSContext_ASSISTANT" data-uid="CRS.Models.CRSContext.ASSISTANT">ASSISTANT</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;ASSISTANT&gt; ASSISTANT { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.ASSISTANT.html">ASSISTANT</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_BACKLOG.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.BACKLOG%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L68">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_BACKLOG_" data-uid="CRS.Models.CRSContext.BACKLOG*"></a>
+  <h4 id="CRS_Models_CRSContext_BACKLOG" data-uid="CRS.Models.CRSContext.BACKLOG">BACKLOG</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;BACKLOG&gt; BACKLOG { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.BACKLOG.html">BACKLOG</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_BASICPRICE.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.BASICPRICE%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L101">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_BASICPRICE_" data-uid="CRS.Models.CRSContext.BASICPRICE*"></a>
+  <h4 id="CRS_Models_CRSContext_BASICPRICE" data-uid="CRS.Models.CRSContext.BASICPRICE">BASICPRICE</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;BASICPRICE&gt; BASICPRICE { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.BASICPRICE.html">BASICPRICE</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_CALCULAT.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.CALCULAT%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L125">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_CALCULAT_" data-uid="CRS.Models.CRSContext.CALCULAT*"></a>
+  <h4 id="CRS_Models_CRSContext_CALCULAT" data-uid="CRS.Models.CRSContext.CALCULAT">CALCULAT</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;CALCULAT&gt; CALCULAT { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.CALCULAT.html">CALCULAT</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_COMPANY.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.COMPANY%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L52">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_COMPANY_" data-uid="CRS.Models.CRSContext.COMPANY*"></a>
+  <h4 id="CRS_Models_CRSContext_COMPANY" data-uid="CRS.Models.CRSContext.COMPANY">COMPANY</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;COMPANY&gt; COMPANY { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.COMPANY.html">COMPANY</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_CONTRACT.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.CONTRACT%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L48">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_CONTRACT_" data-uid="CRS.Models.CRSContext.CONTRACT*"></a>
+  <h4 id="CRS_Models_CRSContext_CONTRACT" data-uid="CRS.Models.CRSContext.CONTRACT">CONTRACT</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;CONTRACT&gt; CONTRACT { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.CONTRACT.html">CONTRACT</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_CUSTOMER.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.CUSTOMER%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L46">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_CUSTOMER_" data-uid="CRS.Models.CRSContext.CUSTOMER*"></a>
+  <h4 id="CRS_Models_CRSContext_CUSTOMER" data-uid="CRS.Models.CRSContext.CUSTOMER">CUSTOMER</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;CUSTOMER&gt; CUSTOMER { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.CUSTOMER.html">CUSTOMER</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_DEPARTMENT.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.DEPARTMENT%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L44">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_DEPARTMENT_" data-uid="CRS.Models.CRSContext.DEPARTMENT*"></a>
+  <h4 id="CRS_Models_CRSContext_DEPARTMENT" data-uid="CRS.Models.CRSContext.DEPARTMENT">DEPARTMENT</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;DEPARTMENT&gt; DEPARTMENT { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.DEPARTMENT.html">DEPARTMENT</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_EMPLOYEE.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.EMPLOYEE%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L40">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_EMPLOYEE_" data-uid="CRS.Models.CRSContext.EMPLOYEE*"></a>
+  <h4 id="CRS_Models_CRSContext_EMPLOYEE" data-uid="CRS.Models.CRSContext.EMPLOYEE">EMPLOYEE</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;EMPLOYEE&gt; EMPLOYEE { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.EMPLOYEE.html">EMPLOYEE</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_ENELUSERS.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.ENELUSERS%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L77">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_ENELUSERS_" data-uid="CRS.Models.CRSContext.ENELUSERS*"></a>
+  <h4 id="CRS_Models_CRSContext_ENELUSERS" data-uid="CRS.Models.CRSContext.ENELUSERS">ENELUSERS</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;ENELUSERS&gt; ENELUSERS { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.ENELUSERS.html">ENELUSERS</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_GROUP.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.GROUP%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L38">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_GROUP_" data-uid="CRS.Models.CRSContext.GROUP*"></a>
+  <h4 id="CRS_Models_CRSContext_GROUP" data-uid="CRS.Models.CRSContext.GROUP">GROUP</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;GROUP&gt; GROUP { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.GROUP.html">GROUP</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_GROUPTA.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.GROUPTA%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L57">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_GROUPTA_" data-uid="CRS.Models.CRSContext.GROUPTA*"></a>
+  <h4 id="CRS_Models_CRSContext_GROUPTA" data-uid="CRS.Models.CRSContext.GROUPTA">GROUPTA</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;GROUPTA&gt; GROUPTA { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.GROUPTA.html">GROUPTA</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_ITOGTAB.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.ITOGTAB%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L97">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_ITOGTAB_" data-uid="CRS.Models.CRSContext.ITOGTAB*"></a>
+  <h4 id="CRS_Models_CRSContext_ITOGTAB" data-uid="CRS.Models.CRSContext.ITOGTAB">ITOGTAB</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;ITOGTAB&gt; ITOGTAB { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.ITOGTAB.html">ITOGTAB</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_JOBTYPE.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.JOBTYPE%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L36">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_JOBTYPE_" data-uid="CRS.Models.CRSContext.JOBTYPE*"></a>
+  <h4 id="CRS_Models_CRSContext_JOBTYPE" data-uid="CRS.Models.CRSContext.JOBTYPE">JOBTYPE</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;JOBTYPE&gt; JOBTYPE { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.JOBTYPE.html">JOBTYPE</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_KOEFFIC.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.KOEFFIC%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L119">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_KOEFFIC_" data-uid="CRS.Models.CRSContext.KOEFFIC*"></a>
+  <h4 id="CRS_Models_CRSContext_KOEFFIC" data-uid="CRS.Models.CRSContext.KOEFFIC">KOEFFIC</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;KOEFFIC&gt; KOEFFIC { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.KOEFFIC.html">KOEFFIC</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_LONGREP.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.LONGREP%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L103">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_LONGREP_" data-uid="CRS.Models.CRSContext.LONGREP*"></a>
+  <h4 id="CRS_Models_CRSContext_LONGREP" data-uid="CRS.Models.CRSContext.LONGREP">LONGREP</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;LONGREP&gt; LONGREP { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.LONGREP.html">LONGREP</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_MATCUST.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.MATCUST%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L111">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_MATCUST_" data-uid="CRS.Models.CRSContext.MATCUST*"></a>
+  <h4 id="CRS_Models_CRSContext_MATCUST" data-uid="CRS.Models.CRSContext.MATCUST">MATCUST</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;MATCUST&gt; MATCUST { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.MATCUST.html">MATCUST</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_MATERIALCUSTOM.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.MATERIALCUSTOM%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L109">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_MATERIALCUSTOM_" data-uid="CRS.Models.CRSContext.MATERIALCUSTOM*"></a>
+  <h4 id="CRS_Models_CRSContext_MATERIALCUSTOM" data-uid="CRS.Models.CRSContext.MATERIALCUSTOM">MATERIALCUSTOM</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;MATERIALCUSTOM&gt; MATERIALCUSTOM { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.MATERIALCUSTOM.html">MATERIALCUSTOM</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_MATERIALOWN.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.MATERIALOWN%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L107">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_MATERIALOWN_" data-uid="CRS.Models.CRSContext.MATERIALOWN*"></a>
+  <h4 id="CRS_Models_CRSContext_MATERIALOWN" data-uid="CRS.Models.CRSContext.MATERIALOWN">MATERIALOWN</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;MATERIALOWN&gt; MATERIALOWN { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.MATERIALOWN.html">MATERIALOWN</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_MATHAND.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.MATHAND%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L115">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_MATHAND_" data-uid="CRS.Models.CRSContext.MATHAND*"></a>
+  <h4 id="CRS_Models_CRSContext_MATHAND" data-uid="CRS.Models.CRSContext.MATHAND">MATHAND</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;MATHAND&gt; MATHAND { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.MATHAND.html">MATHAND</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_MATOWN.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.MATOWN%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L113">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_MATOWN_" data-uid="CRS.Models.CRSContext.MATOWN*"></a>
+  <h4 id="CRS_Models_CRSContext_MATOWN" data-uid="CRS.Models.CRSContext.MATOWN">MATOWN</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;MATOWN&gt; MATOWN { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.MATOWN.html">MATOWN</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_NUMBERS.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.NUMBERS%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L99">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_NUMBERS_" data-uid="CRS.Models.CRSContext.NUMBERS*"></a>
+  <h4 id="CRS_Models_CRSContext_NUMBERS" data-uid="CRS.Models.CRSContext.NUMBERS">NUMBERS</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;NUMBERS&gt; NUMBERS { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.NUMBERS.html">NUMBERS</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_OTCENKARUK.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.OTCENKARUK%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L91">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_OTCENKARUK_" data-uid="CRS.Models.CRSContext.OTCENKARUK*"></a>
+  <h4 id="CRS_Models_CRSContext_OTCENKARUK" data-uid="CRS.Models.CRSContext.OTCENKARUK">OTCENKARUK</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;OTCENKARUK&gt; OTCENKARUK { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.OTCENKARUK.html">OTCENKARUK</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_OTCENKAUD.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.OTCENKAUD%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L93">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_OTCENKAUD_" data-uid="CRS.Models.CRSContext.OTCENKAUD*"></a>
+  <h4 id="CRS_Models_CRSContext_OTCENKAUD" data-uid="CRS.Models.CRSContext.OTCENKAUD">OTCENKAUD</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;OTCENKAUD&gt; OTCENKAUD { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.OTCENKAUD.html">OTCENKAUD</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_PLANNING.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.PLANNING%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L66">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_PLANNING_" data-uid="CRS.Models.CRSContext.PLANNING*"></a>
+  <h4 id="CRS_Models_CRSContext_PLANNING" data-uid="CRS.Models.CRSContext.PLANNING">PLANNING</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;PLANNING&gt; PLANNING { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.PLANNING.html">PLANNING</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_PRICEREP.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.PRICEREP%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L105">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_PRICEREP_" data-uid="CRS.Models.CRSContext.PRICEREP*"></a>
+  <h4 id="CRS_Models_CRSContext_PRICEREP" data-uid="CRS.Models.CRSContext.PRICEREP">PRICEREP</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;PRICEREP&gt; PRICEREP { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.PRICEREP.html">PRICEREP</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_PRINTACT.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.PRINTACT%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L129">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_PRINTACT_" data-uid="CRS.Models.CRSContext.PRINTACT*"></a>
+  <h4 id="CRS_Models_CRSContext_PRINTACT" data-uid="CRS.Models.CRSContext.PRINTACT">PRINTACT</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;PRINTACT&gt; PRINTACT { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.PRINTACT.html">PRINTACT</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_PRIVYAZKOEFFIC.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.PRIVYAZKOEFFIC%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L123">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_PRIVYAZKOEFFIC_" data-uid="CRS.Models.CRSContext.PRIVYAZKOEFFIC*"></a>
+  <h4 id="CRS_Models_CRSContext_PRIVYAZKOEFFIC" data-uid="CRS.Models.CRSContext.PRIVYAZKOEFFIC">PRIVYAZKOEFFIC</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;PRIVYAZKOEFFIC&gt; PRIVYAZKOEFFIC { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.PRIVYAZKOEFFIC.html">PRIVYAZKOEFFIC</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_REPAIR.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.REPAIR%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L72">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_REPAIR_" data-uid="CRS.Models.CRSContext.REPAIR*"></a>
+  <h4 id="CRS_Models_CRSContext_REPAIR" data-uid="CRS.Models.CRSContext.REPAIR">REPAIR</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;REPAIR&gt; REPAIR { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.REPAIR.html">REPAIR</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_ROLES.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.ROLES%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L73">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_ROLES_" data-uid="CRS.Models.CRSContext.ROLES*"></a>
+  <h4 id="CRS_Models_CRSContext_ROLES" data-uid="CRS.Models.CRSContext.ROLES">ROLES</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;ROLES&gt; ROLES { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.ROLES.html">ROLES</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_SMETA.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.SMETA%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L127">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_SMETA_" data-uid="CRS.Models.CRSContext.SMETA*"></a>
+  <h4 id="CRS_Models_CRSContext_SMETA" data-uid="CRS.Models.CRSContext.SMETA">SMETA</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;SMETA&gt; SMETA { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.SMETA.html">SMETA</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_SPRAV.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.SPRAV%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L121">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_SPRAV_" data-uid="CRS.Models.CRSContext.SPRAV*"></a>
+  <h4 id="CRS_Models_CRSContext_SPRAV" data-uid="CRS.Models.CRSContext.SPRAV">SPRAV</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;SPRAV&gt; SPRAV { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.SPRAV.html">SPRAV</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_SUB.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.SUB%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L64">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_SUB_" data-uid="CRS.Models.CRSContext.SUB*"></a>
+  <h4 id="CRS_Models_CRSContext_SUB" data-uid="CRS.Models.CRSContext.SUB">SUB</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;SUB&gt; SUB { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.SUB.html">SUB</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_SUBACT.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.SUBACT%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L70">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_SUBACT_" data-uid="CRS.Models.CRSContext.SUBACT*"></a>
+  <h4 id="CRS_Models_CRSContext_SUBACT" data-uid="CRS.Models.CRSContext.SUBACT">SUBACT</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;SUBACT&gt; SUBACT { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.SUBACT.html">SUBACT</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_SUBORG.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.SUBORG%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L62">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_SUBORG_" data-uid="CRS.Models.CRSContext.SUBORG*"></a>
+  <h4 id="CRS_Models_CRSContext_SUBORG" data-uid="CRS.Models.CRSContext.SUBORG">SUBORG</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;SUBORG&gt; SUBORG { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.SUBORG.html">SUBORG</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_TYPEOUTFIT.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.TYPEOUTFIT%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L95">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_TYPEOUTFIT_" data-uid="CRS.Models.CRSContext.TYPEOUTFIT*"></a>
+  <h4 id="CRS_Models_CRSContext_TYPEOUTFIT" data-uid="CRS.Models.CRSContext.TYPEOUTFIT">TYPEOUTFIT</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;TYPEOUTFIT&gt; TYPEOUTFIT { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.TYPEOUTFIT.html">TYPEOUTFIT</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_UNITC.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.UNITC%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L76">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_UNITC_" data-uid="CRS.Models.CRSContext.UNITC*"></a>
+  <h4 id="CRS_Models_CRSContext_UNITC" data-uid="CRS.Models.CRSContext.UNITC">UNITC</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;UNITC&gt; UNITC { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.UNITC.html">UNITC</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_USERS.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.USERS%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L60">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_USERS_" data-uid="CRS.Models.CRSContext.USERS*"></a>
+  <h4 id="CRS_Models_CRSContext_USERS" data-uid="CRS.Models.CRSContext.USERS">USERS</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;USERS&gt; USERS { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.USERS.html">USERS</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_USERSINROLES.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.USERSINROLES%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L74">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_USERSINROLES_" data-uid="CRS.Models.CRSContext.USERSINROLES*"></a>
+  <h4 id="CRS_Models_CRSContext_USERSINROLES" data-uid="CRS.Models.CRSContext.USERSINROLES">USERSINROLES</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;USERSINROLES&gt; USERSINROLES { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.USERSINROLES.html">USERSINROLES</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_View_ForLOAD.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.View_ForLOAD%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L83">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_View_ForLOAD_" data-uid="CRS.Models.CRSContext.View_ForLOAD*"></a>
+  <h4 id="CRS_Models_CRSContext_View_ForLOAD" data-uid="CRS.Models.CRSContext.View_ForLOAD">View_ForLOAD</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;View_ForROPDOP&gt; View_ForLOAD { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.View_ForROPDOP.html">View_ForROPDOP</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_View_ForMonthlys.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.View_ForMonthlys%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L87">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_View_ForMonthlys_" data-uid="CRS.Models.CRSContext.View_ForMonthlys*"></a>
+  <h4 id="CRS_Models_CRSContext_View_ForMonthlys" data-uid="CRS.Models.CRSContext.View_ForMonthlys">View_ForMonthlys</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;View_ForMonthlys&gt; View_ForMonthlys { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.View_ForMonthlys.html">View_ForMonthlys</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_View_ForROP.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.View_ForROP%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L81">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_View_ForROP_" data-uid="CRS.Models.CRSContext.View_ForROP*"></a>
+  <h4 id="CRS_Models_CRSContext_View_ForROP" data-uid="CRS.Models.CRSContext.View_ForROP">View_ForROP</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;View_ForROP&gt; View_ForROP { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.View_ForROP.html">View_ForROP</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_View_ForROPDOP.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.View_ForROPDOP%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L82">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_View_ForROPDOP_" data-uid="CRS.Models.CRSContext.View_ForROPDOP*"></a>
+  <h4 id="CRS_Models_CRSContext_View_ForROPDOP" data-uid="CRS.Models.CRSContext.View_ForROPDOP">View_ForROPDOP</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;View_ForROPDOP&gt; View_ForROPDOP { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.View_ForROPDOP.html">View_ForROPDOP</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_View_ForSDO1.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.View_ForSDO1%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L80">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_View_ForSDO1_" data-uid="CRS.Models.CRSContext.View_ForSDO1*"></a>
+  <h4 id="CRS_Models_CRSContext_View_ForSDO1" data-uid="CRS.Models.CRSContext.View_ForSDO1">View_ForSDO1</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;View_ForSDO1&gt; View_ForSDO1 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.View_ForSDO1.html">View_ForSDO1</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_View_ForTZ.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.View_ForTZ%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L79">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_View_ForTZ_" data-uid="CRS.Models.CRSContext.View_ForTZ*"></a>
+  <h4 id="CRS_Models_CRSContext_View_ForTZ" data-uid="CRS.Models.CRSContext.View_ForTZ">View_ForTZ</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;View_ForTZ&gt; View_ForTZ { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.View_ForTZ.html">View_ForTZ</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_VISITS.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.VISITS%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L98">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_VISITS_" data-uid="CRS.Models.CRSContext.VISITS*"></a>
+  <h4 id="CRS_Models_CRSContext_VISITS" data-uid="CRS.Models.CRSContext.VISITS">VISITS</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;VISITS&gt; VISITS { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.VISITS.html">VISITS</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext_WORKSHED.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext.WORKSHED%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L117">View Source</a>
+  </span>
+  <a id="CRS_Models_CRSContext_WORKSHED_" data-uid="CRS.Models.CRSContext.WORKSHED*"></a>
+  <h4 id="CRS_Models_CRSContext_WORKSHED" data-uid="CRS.Models.CRSContext.WORKSHED">WORKSHED</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;WORKSHED&gt; WORKSHED { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="CRS.Models.WORKSHED.html">WORKSHED</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <div>
+      <span class="xref">System.Data.Entity.Infrastructure.IObjectContextAdapter</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Innovation-developement/CRS_PTD_new/new/master/apiSpec/new?filename=CRS_Models_CRSContext.md&amp;value=---%0Auid%3A%20CRS.Models.CRSContext%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Innovation-developement/CRS_PTD_new/blob/master/Models/DbContext/CRSContext.cs/#L13" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
